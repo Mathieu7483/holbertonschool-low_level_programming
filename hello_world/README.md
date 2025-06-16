@@ -23,7 +23,6 @@ julien@ubuntu:~/c/$ tail c
 
 # 2 "main.c" 2
 
-
 # 3 "main.c"
 int main(void)
 {
