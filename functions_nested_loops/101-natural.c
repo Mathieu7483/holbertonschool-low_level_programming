@@ -1,21 +1,18 @@
 #include <stdio.h>
 /**
-* print_times_table - Prints the times table of the input,
-*                     starting with 0.
-*sum: The value of the times table to be printed.
- */
-
-var multiples = function (n)
+* main - point d'entree du programme
+* return : 0 always acces
+*/
+int main()
 {
-var sum = 0;
-for (var i = 1; i < n; i++)
+int sum = 0;
+for (int i = 1; i < 1024; i++)
 {
-if ((i % 3 == 0) || (i % 5 == 0))
-{
+if (i % 3 == 0 || i % 5 == 0)
+{  
 sum += i;
 }
-printf("%d\n",sum);
 }
-multiples(1024);
-return(0);
+printf("The sum of all multiples of 3 or 5 below 1024 is: %d\n", sum);
+return (0);
 }
