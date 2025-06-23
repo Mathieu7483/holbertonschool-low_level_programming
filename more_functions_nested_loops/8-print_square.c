@@ -6,7 +6,7 @@
 */
 void print_square(int size)
 {
-int line, column; 
+int line, column;
 if (size > 0)
 {
 for (line = 0; line < size; line++)
@@ -17,7 +17,7 @@ _putchar('#');
 }
 _putchar('\n');
 }
-} 
+}
 else
 {
 _putchar('\n');
