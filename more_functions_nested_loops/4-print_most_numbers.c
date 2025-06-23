@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
 * print_most_numbers - entry point of the code
 * Return: always 0 success
@@ -9,7 +9,7 @@ int a;
 for (a = '0'; a <= '9'; a++)
 if (a != '2' && a != '4')
 {
-putchar(a);
+_putchar(a);
 }
-putchar('\n');
+_putchar('\n');
 }
