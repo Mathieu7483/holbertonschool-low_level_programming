@@ -20,6 +20,6 @@ _putchar('\\');
 _putchar('\n');
 c++;
 }
-if (n < 0)
+if (n <= 0)
 _putchar('\n');
 }
