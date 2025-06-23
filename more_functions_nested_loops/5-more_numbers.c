@@ -12,7 +12,9 @@ while (i <= 9)
 {
 for (a = 0; a <= 14; a++)
 {
-_putchar(a);
+if (a >= 10)
+_putchar((a / 10) + '0');
+_putchar((a % 10) + '0');
 }
 _putchar('\n');
 i++;
