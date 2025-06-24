@@ -1,0 +1,16 @@
+#include "main.h"
+/**
+* puts2 - print a string
+*@str: void puts 2
+*/
+void puts2(char *str)
+{
+if (*str == '\0')
+{
+_putchar('\n');
+return;
+}
+for (; *str != '\0'; str += 2)
+_putchar(*str);
+_putchar('\n');
+}
