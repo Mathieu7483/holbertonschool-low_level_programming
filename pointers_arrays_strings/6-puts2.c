@@ -6,13 +6,13 @@
 void puts2(char *str)
 {
 int i = 0;
-if (*str == '\0')
-{
-_putchar('\n');
-return;
-}
-for (; *str != '\0'; str++)
+for (; str[i] != '\0'; i++)
+{ 
 if (i % 2 == 0)
-_putchar(*str);
+{
+_putchar(str[i]);
+}
+}
 _putchar('\n');
 }
+
