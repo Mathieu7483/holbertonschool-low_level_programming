@@ -17,6 +17,6 @@ for (i = 0; src[i] != '\0'; i++)
 {
 dest[l] = src[i];
 l++;
-} 
+}
 return (dest);
 }
