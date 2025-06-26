@@ -3,7 +3,7 @@
 *_strcmp - compare the string
 *@s1: source tab
 *@s2: dest tab
-*Return: value of strcmp
+*Return: value of comp
 */
 int _strcmp(char *s1, char *s2)
 {
