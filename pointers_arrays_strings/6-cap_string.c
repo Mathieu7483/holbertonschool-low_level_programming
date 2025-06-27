@@ -27,7 +27,6 @@ str[i - 1] == ')' ||
 str[i - 1] == '{' ||
 str[i - 1] == '}')
 str[i] -= 32;
-str[i] = 0;
 i++;
 }
 return (str);
