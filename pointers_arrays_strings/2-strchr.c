@@ -1,11 +1,17 @@
 #include "main.h"
 /**
-*_strchr - 
-*
-*
-*
- */
- char *_strchr(char *s, char c)
+*_strchr - search a char in a string
+*@s: input
+*@c: input
+*Return: Always 0 success
+*/
+char *_strchr(char *s, char c)
 {
-return (c)  
+int i;
+for (i = 0; s[i] >= '\0'; i++)
+{
+if (s[i] == c)
+return (s + i);
+}
+return ('\0');
 }
