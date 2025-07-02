@@ -15,7 +15,7 @@ if (argc > 1)
 for (n = 1; n < argc; n++)
 {
 i = atoi(argv[n]);
-result = result * i;
+result = result *i;
 }
 printf("%d\n", result);
 return (0);
