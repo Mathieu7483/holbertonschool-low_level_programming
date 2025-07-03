@@ -6,9 +6,11 @@
 int main()
 {
 int sum = 0;
-for (int i = 1; i < 1024; i++)
+int i = 1;
+while (i < 1024)
 {
 if (i % 3 == 0 || i % 5 == 0)
+i++;
 {  
 sum += i;
 }
