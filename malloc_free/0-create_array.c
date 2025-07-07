@@ -1,4 +1,12 @@
-
+#include "main.h"
+#include <stdlib>
+/**
+*create_array - create an array
+*@size: taille du tableau
+*@c: caractere
+*Return: NULL if size = 0
+*a pointer to the array, or NULL if it fails
+*/
 char *create_array(unsigned int size, char c)
 {
 char *pointerarray;
