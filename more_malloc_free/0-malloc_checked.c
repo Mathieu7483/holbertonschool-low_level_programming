@@ -6,7 +6,7 @@
 */
 void *malloc_checked(unsigned int b)
 {
-void *mallocfunction = malloc (b);
+void *mallocfunction = malloc(b);
 if (mallocfunction == NULL)
 exit(98);
 return (mallocfunction);
