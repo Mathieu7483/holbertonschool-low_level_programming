@@ -3,6 +3,7 @@
 /**
 *malloc_checked - check the malloc function
 *@b: unsigned int
+*Return: pointer to the allocated memory
 */
 void *malloc_checked(unsigned int b)
 {
