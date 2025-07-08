@@ -5,7 +5,7 @@
 *@s1: String one
 *@s2: String two
 *@n: integer unsigned
-*Return: ptr
+*Return: pointer to a newly allocated space in memory
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
