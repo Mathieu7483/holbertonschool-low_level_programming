@@ -5,17 +5,21 @@
 *@d: element of information (name, age, owner)
 */
 void print_dog(struct dog *d)
+{
 if (d == NULL)
-printf("");
-if (d->d.name == NULL)
-printf("d.name %s\n" name : (nil))
+return;
+{
+if (d->name == NULL)
+printf("Name: (nil)\n");
 else
-printf("d.name %s\n" d->d.name)
-if (d->d.age == NULL)
-printf("d.age %.6f\n" age : (nil))
+printf("Name: %s\n", d->name);
+if (d->age == 0)
+printf("Age: (nil)\n");
 else
-printf("d.age %s\n" d->d.age)
-if (d->d.owner == NULL)
-printf("d.owner %s\n" owner : (nil))
+printf("Age: %.6f\n", d->age);
+if (d->owner == NULL)
+printf("Owner: (nil)\n");
 else
-printf("d.owner %s\n" d->d.owner)
+printf("Owner: %s\n", d->owner);
+}
+}
