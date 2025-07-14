@@ -1,5 +1,6 @@
 #include "calc.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
 *op_add - addition operator
 *@a: first int

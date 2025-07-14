@@ -1,4 +1,5 @@
 #include "calc.h"
+#include <stddef.h>
 /**
 *get_op_func - 
 *@s: string S
