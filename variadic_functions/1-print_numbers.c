@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 /**
- *print_numbers - function that prints numbers
- *@separator: the string to be printed between numbers
- *@n: integer to display
- */
+*print_numbers - function that prints numbers
+*@separator: the string to be printed between numbers
+*@n: integer to display
+*/
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 va_list args;
