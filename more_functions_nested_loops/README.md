@@ -33,7 +33,7 @@ Environnement : Ubuntu 20.04 LTS
 Ce dépôt contient plusieurs exercices qui mettent en pratique les concepts de fonctions et de boucles imbriquées, ainsi que la gestion des fichiers d'en-tête :
 
 main.h : Mon fichier d'en-tête centralisé, incluant les prototypes de toutes les fonctions du projet, y compris _putchar.
-* **[lien vers main.h]()** 
+* **[lien vers main.h](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/more_functions_nested_loops/main.h)** 
 
 * **[Lien vers 0-isupper.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/more_functions_nested_loops/0-isupper.c)**  : Une fonction qui vérifie si un caractère est une majuscule.
 
@@ -76,19 +76,6 @@ Interdiction de la Bibliothèque Standard : L'utilisation de fonctions comme pri
 _putchar : Cette fonction est utilisée pour toutes les opérations d'affichage (le fichier _putchar.c n'est pas à pousser).
 
 Protection d'en-tête : Le fichier main.h doit être protégé contre les inclusions multiples (include guards).
-
-👨‍💻 Comment Compiler et Exécuter
-Pour compiler les fichiers de ce projet, assure-toi d'avoir GCC installé sur un système Ubuntu 20.04 LTS.
-
-Exemple de compilation et d'exécution (pour 6-print_line.c) :
-
-Bash
-
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 main.c 6-print_line.c -o print_line_test
-./print_line_test
-# Résultat attendu (si main.c appelle print_line(5)) :
-# _____
-(Adapte les commandes de compilation et d'exécution en fonction de chaque exercice et des fichiers de test main.c que tu utilises.)
 
 ✍️ Auteur
 Mathieu GODALIER - Élève en programmation
