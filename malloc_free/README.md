@@ -68,10 +68,10 @@ Include Guards : Le fichier d'en-tête main.h doit être protégé par des inclu
 
 # 👨‍💻 Comment verifier la mémoire
 Pour vérifier les fuites de mémoire avec Valgrind :
-
-Bash
+```bash
 
 valgrind --leak-check=full ./mon_programme
+```
 
 # ✍️ Auteur
 Mathieu GODALIER- Élève en programmation
