@@ -1,8 +1,14 @@
+# 📚 holbertonschool-low_level_programming : Immersion dans le C de Bas Niveau
+
+Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce répertoire est le point de départ de mon parcours d'apprentissage intensif du langage C, en mettant l'accent sur la programmation de bas niveau. Il compile l'ensemble des projets et exercices réalisés dans le cadre de ma formation, depuis les fondamentaux jusqu'aux concepts plus avancés.
+
+Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
+
 # 🚀 Projet : Fonctions Variadiques et `const` en C
 
 Bienvenue dans ce projet dédié à l'exploration des **fonctions variadiques** et de l'utilisation du mot-clé `const` en C ! Ce travail fait partie de mon parcours d'apprentissage de la programmation, et il m'a permis de solidifier ma compréhension de concepts fondamentaux et avancés du langage C.
 
-## 🎯 Objectifs d'apprentissage
+# 🎯 Objectifs d'apprentissage
 
 À travers ce projet, j'ai cherché à maîtriser les points suivants :
 
@@ -10,7 +16,7 @@ Bienvenue dans ce projet dédié à l'exploration des **fonctions variadiques** 
 * **Maîtriser les macros `va_start`, `va_arg` et `va_end`** : Comment utiliser ces macros de la bibliothèque `<stdarg.h>` pour manipuler un nombre variable d'arguments.
 * **Appliquer le qualificateur de type `const`** : Pourquoi et comment utiliser `const` pour améliorer la robustesse et la clarté du code.
 
-## 🛠️ Technologies et Environnement
+# 🛠️ Technologies et Environnement
 
 * **Langage** : C
 * **Compilateur** : GCC (GNU Compiler Collection)
@@ -18,7 +24,7 @@ Bienvenue dans ce projet dédié à l'exploration des **fonctions variadiques** 
 * **Environnement** : Ubuntu 20.04 LTS
 * **Éditeurs** : `vi`, `vim`, `emacs`, 'vscode'
 
-## 📖 Structure du Projet
+# 📖 Structure du Projet
 
 Ce dépôt contient les fichiers suivants, chacun illustrant un aspect des fonctions variadiques ou de l'utilisation de `const` :
 
@@ -31,7 +37,7 @@ Ce dépôt contient les fichiers suivants, chacun illustrant un aspect des fonct
 
 *(Chaque lien doit pointer vers le fichier source correspondant dans ton dépôt GitHub. Par exemple, si ton fichier `0-sum_them_all.c` est directement à la racine de ton projet, le lien pourrait être `[0-sum_them_all.c](./0-sum_them_all.c)`.)*
 
-## 💡 Contraintes et Bonnes Pratiques
+# 💡 Contraintes et Bonnes Pratiques
 
 Ce projet a été réalisé en respectant des exigences strictes pour garantir la qualité du code :
 
@@ -42,7 +48,7 @@ Ce projet a été réalisé en respectant des exigences strictes pour garantir l
 * **Protection d'inclusion** : Tous les fichiers d'en-tête sont protégés par des include guards.
 * **`_putchar`** : Utilisation de `_putchar` pour l'affichage (non fourni dans le dépôt).
 
-## 👨‍💻 Comment compiler et exécuter
+# 👨‍💻 Comment compiler et exécuter
 
 Pour compiler les fichiers de ce projet, assurez-vous d'avoir GCC installé sur un système Ubuntu 20.04 LTS.
 
@@ -51,3 +57,7 @@ Exemple de compilation (pour un fichier spécifique, par exemple `0-sum_them_all
 ```bash
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 main.c 0-sum_them_all.c -o sum_them_all
 ./sum_them_all
+```
+
+# ✍️ Auteur
+Mathieu GODALIER- Élève en programmation
