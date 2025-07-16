@@ -16,7 +16,7 @@ Bienvenue dans ce projet dédié à l'exploration des **fonctions variadiques** 
 * **Compilateur** : GCC (GNU Compiler Collection)
 * **Options de compilation** : `-Wall -Werror -Wextra -pedantic -std=gnu89`
 * **Environnement** : Ubuntu 20.04 LTS
-* **Éditeurs** : `vi`, `vim`, `emacs`
+* **Éditeurs** : `vi`, `vim`, `emacs`, 'vscode'
 
 ## 📖 Structure du Projet
 
