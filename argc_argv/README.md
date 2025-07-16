@@ -63,14 +63,14 @@ Pour compiler les fichiers de ce projet, assure-toi d'avoir GCC sur un système 
 
 Exemple de compilation et d'exécution (pour le programme 3-mul.c) :
 
-Bash
+```bash
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-mul.c -o mul
 ./mul 10 20
 # Résultat attendu : 200
 ./mul 5 "hello"
 # Résultat attendu : Error
-(Adapte les commandes pour chaque programme en fonction de ses arguments attendus.)
+```
 
 # ✍️ Auteur
 Mathieu GODALIER- Élève en programmation
