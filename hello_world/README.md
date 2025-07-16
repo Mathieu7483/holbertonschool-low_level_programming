@@ -1,225 +1,82 @@
-0. Preprocessor
-mandatory
-Write a script that runs a C file through the preprocessor and save the result into another file.
+# 📚 holbertonschool-low_level_programming : Immersion dans le C de Bas Niveau
 
-The C file name will be saved in the variable $CFILE
-The output should be saved in the file c
-julien@ubuntu:~/c/$ cat main.c 
-#include <stdio.h>
+Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce répertoire est le point de départ de mon parcours d'apprentissage intensif du langage C, en mettant l'accent sur la programmation de bas niveau. Il compile l'ensemble des projets et exercices réalisés dans le cadre de ma formation, depuis les fondamentaux jusqu'aux concepts plus avancés.
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-    return (0);
-}
-julien@ubuntu:~/c/$ export CFILE=main.c
-julien@ubuntu:~/c/$ ./0-preprocessor 
-julien@ubuntu:~/c/$ tail c
-# 942 "/usr/include/stdio.h" 3 4
+Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
 
-# 2 "main.c" 2
+# 🌍 Projet : Hello, C World! - Les Fondamentaux de la Compilation et de l'Affichage
+Bienvenue dans le tout premier projet de mon parcours en C ! Ce projet 0x00-hello_world est une immersion pratique dans les bases du langage C, depuis le processus de compilation jusqu'aux premières interactions avec l'utilisateur via la console. Il pose les fondations de tous les futurs développements.
 
-# 3 "main.c"
-int main(void)
-{
- return (0);
-}
-julien@ubuntu:~/c/$ 
-Repo:
+# 🎯 Objectifs d'apprentissage
+À travers ce projet, j'ai acquis une compréhension claire des points suivants :
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: hello_world
-File: 0-preprocessor
-  
-0/5 pts
-1. Compiler
-mandatory
-Write a script that compiles a C file but does not link.
+Le rôle du préprocesseur : Ce qu'il fait et comment l'utiliser.
 
-The C file name will be saved in the variable $CFILE
-The output file should be named the same as the C file, but with the extension .o instead of .c.
-Example: if the C file is main.c, the output file should be main.o
-julien@ubuntu:~/c/$ export CFILE=main.c
-julien@ubuntu:~/c/$ cat main.c
-#include <stdio.h>
+Les étapes de la compilation GCC : Préprocesseur, compilation, assemblage, et édition de liens.
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-    return (0);
-}
-julien@ubuntu:~/c/$ ./1-compiler 
-julien@ubuntu:~/c/$ ls
-0-preprocessor  1-compiler   c            main.o
-Makefile               100-intel      main.c  main.s
-julien@ubuntu:~/c/$ cat -v main.o | head
-^?ELF^B^A^A^@^@^@^@^@^@^@^@^@^A^@>^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^P^B^@^@^@^@^@^@^@^@^@^@@^@^@^@^@^@@^@^K^@^H^@UHM-^IM-eM-8^@^@^@^@]M-C^@GCC: (Ubuntu 5.4.0-6ubuntu1~16.04.2) 5.4.0 20160609^@^T^@^@^@^@^@^@^@^AzR^@^Ax^P^A^[^L^G^HM-^P^A^@^@^\^@^@^@^\^@^@^@^@^@^@^@^K^@^@^@^@A^N^PM-^F^BC^M^FF^L^G^H^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^D^@M-qM-^?^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^E^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^F^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^C^@^D^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^H^@^@^@^R^@^A^@^@^@^@^@^@^@^@^@^K^@^@^@^@^@^@^@^@main.c^@main^@^@^@^@ ^@^@^@^@^@^@^@^B^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@.symtab^@.strtab^@.shstrtab^@.text^@.data^@.bss^@.comment^@.note.GNU-stack^@.rela.eh_frame^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^[^@^@^@^A^@^@^@^F^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@@^@^@^@^@^@^@^@^K^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@!^@^@^@^A^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@K^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@'^@^@^@^H^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@K^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@,^@^@^@^A^@^@^@0^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@K^@^@^@^@^@^@^@5^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@5^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@J^@^@^@^A^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^@^@^@^@^@^@^@^@8^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^H^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@E^@^@^@^D^@^@^@@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M- ^A^@^@^@^@^@^@^X^@^@^@^@^@^@^@    ^@^@^@^F^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@^Q^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-8^A^@^@^@^@^@^@T^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-8^@^@^@^@^@^@^@M-X^@^@^@^@^@^@^@
-^@^@^@^H^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@  ^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^P^A^@^@^@^@^@^@^M^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@julien@ubuntu:~/c/$ 
-Repo:
+Utilisation des fonctions d'affichage : printf, puts, et _putchar.
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: hello_world
-File: 1-compiler
-  
-0/5 pts
-2. Assembler
-mandatory
-Write a script that generates the assembly code of a C code and save it in an output file.
+Le programme main : Son rôle d'entrée et ses prototypes.
 
-The C file name will be saved in the variable $CFILE
-The output file should be named the same as the C file, but with the extension .s instead of .c.
-Example: if the C file is main.c, the output file should be main.s
-julien@ubuntu:~/c/$ export CFILE=main.c
-julien@ubuntu:~/c/$ cat main.c
-#include <stdio.h>
+L'opérateur sizeof : Comment obtenir la taille des types de données.
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-    return (0);
-}
-julien@ubuntu:~/c/$ ./2-assembler
-julien@ubuntu:~/c/$ ls
-0-preprocessor  1-compiler  2-assembler c  main.c  main.s  Makefile
-julien@ubuntu:~/c/$ cat main.s
-    .file   "main.c"
-    .text
-    .globl  main
-    .type   main, @function
-main:
-.LFB0:
-    .cfi_startproc
-    pushq   %rbp
-    .cfi_def_cfa_offset 16
-    .cfi_offset 6, -16
-    movq    %rsp, %rbp
-    .cfi_def_cfa_register 6
-    movl    $0, %eax
-    popq    %rbp
-    .cfi_def_cfa 7, 8
-    ret
-    .cfi_endproc
-.LFE0:
-    .size   main, .-main
-    .ident  "GCC: (Ubuntu 5.4.0-6ubuntu1~16.04.2) 5.4.0 20160609"
-    .section    .note.GNU-stack,"",@progbits
-julien@ubuntu:~/c/$ 
-Repo:
+Compilation sans avertissements : Maîtrise des flags gcc comme -Wall, -Werror, etc.
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: hello_world
-File: 2-assembler
-  
-0/5 pts
-3. Name
-mandatory
-Write a script that compiles a C file and creates an executable named cisfun.
+# 🛠️ Technologies et Environnement
+Langage : C
 
-The C file name will be saved in the variable $CFILE
-julien@ubuntu:~/c/$ export CFILE=main.c
-julien@ubuntu:~/c/$ cat main.c
-#include <stdio.h>
+Scripts : Shell / Bash
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-    return (0);
-}
-julien@ubuntu:~/c/$ ./3-name 
-julien@ubuntu:~/c/$ ls
-0-preprocessor  1-compiler   3-name  cisfun  main.o  Makefile
-100-intel       2-assembler  c       main.c  main.s
-julien@ubuntu:~/c/$ 
-Repo:
+Compilateur : GCC (GNU Compiler Collection)
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: hello_world
-File: 3-name
-  
-0/5 pts
-4. Hello, puts
-mandatory
-Write a C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+Options de compilation : -Wall -Werror -Wextra -pedantic -std=gnu89
 
-Use the function puts
-You are not allowed to use printf
-Your program should end with the value 0
-julien@ubuntu:~/c/$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c && ./a.out
-"Programming is like building a multilingual puzzle
-julien@ubuntu:~/c/$ echo $?
-0
-julien@ubuntu:~/c/$ 
-Repo:
+Environnement : Ubuntu 20.04 LTS
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: hello_world
-File: 4-puts.c
-  
-0/7 pts
-5. Hello, printf
-mandatory
-Write a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
+Éditeurs : vi, vim, emacs
 
-Use the function printf
-You are not allowed to use the function puts
-Your program should return 0
-Your program should compile without warning when using the -Wall gcc option
-julien@ubuntu:~/c/$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 5-printf.c
-julien@ubuntu:~/c/$ ./a.out 
-with proper grammar, but the outcome is a piece of art,
-julien@ubuntu:~/c/$ echo $?
-0
-julien@ubuntu:~/c/$ 
-Repo:
+Style de Code : Betty (vérifié par betty-style.pl et betty-doc.pl)
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: hello_world
-File: 5-printf.c
-  
-0/7 pts
-6. Size is not grandeur, and territory does not make a nation
-mandatory
-Write a C program that prints the size of various types on the computer it is compiled and run on.
+# 📖 Structure du Projet et Exercices
+Ce dossier contient des scripts shell et des programmes C qui illustrent les concepts de base. Chaque fichier représente un pas dans la compréhension du cycle de vie d'un programme C :
 
-You should produce the exact same output as in the example
-Warnings are allowed
-Your program should return 0
-If you are using a linux on Vagrant you might have to install the package libc6-dev-i386 to test the -m32 gcc option (normally you dont need to do anything on your sandbox).
-julien@ubuntu:~/c/$ gcc 6-size.c -m32 -o size32 2> /tmp/32
-julien@ubuntu:~/c/$ gcc 6-size.c -m64 -o size64 2> /tmp/64
-julien@ubuntu:~/c/$ ./size32
-Size of a char: 1 byte(s)
-Size of an int: 4 byte(s)
-Size of a long int: 4 byte(s)
-Size of a long long int: 8 byte(s)
-Size of a float: 4 byte(s)
-julien@ubuntu:~/c/$ ./size64
-Size of a char: 1 byte(s)
-Size of an int: 4 byte(s)
-Size of a long int: 8 byte(s)
-Size of a long long int: 8 byte(s)
-Size of a float: 4 byte(s)
-julien@ubuntu:~/c/$ echo $?
-0
-julien@ubuntu:~/c/$ 
-Repo:
+* **[Lien vers 0-preprocessor](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hello_world/0-preprocessor)** : Un script Shell pour exécuter le préprocesseur sur un fichier C.
 
-GitHub repository: holbertonschool-low_level_programming
-Directory: hello_world
-File: 6-size.c
+* **[Lien vers 1-compiler](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hello_world/1-compiler)**  : Un script Shell pour compiler un fichier C sans faire l'édition de liens, générant un fichier .o.
+
+* **[Lien vers 2-assembler](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hello_world/2-assembler)**  : Un script Shell pour générer le code assembleur d'un fichier C, produisant un fichier .s.
+
+* **[Lien vers 3-name](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hello_world/3-name)**  : Un script Shell pour compiler un fichier C et créer un exécutable nommé cisfun.
+
+* **[Lien vers 4-puts.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hello_world/4-puts.c)**  : Un programme C qui imprime une phrase en utilisant la fonction puts.
+
+* **[Lien vers 5-printf.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hello_world/5-printf.c)**  : Un programme C qui imprime une phrase en utilisant la fonction printf.
+
+* **[Lien vers 6-size.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hello_world/6-size.c)** : Un programme C qui affiche la taille en octets de divers types de données.
+
+* **[Lien vers 100-intel.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hello_world/100-intel)** : Script qui génère le code assembleur (syntaxe Intel) d'un code C et l'enregistre dans un fichier de sortie.
+
+* **[Lien vers 101-quote.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hello_world/101-quote.c)** : Programme C qui affiche exactement "and that piece of art is useful" - Dora Korpar, 2015-10-19, suivi d'une nouvelle ligne, sur la sortie d'erreur standard.
+
+
+# 💡 Contraintes et Bonnes Pratiques
+Ce projet respecte les règles de codage établies :
+
+Fichiers propres : Tous les fichiers se terminent par une nouvelle ligne.
+
+Betty Style : Le code C respecte le style Betty.
+
+Pas de variables globales : L'utilisation de variables globales est interdite.
+
+Modularité : Pas plus de 5 fonctions par fichier C.
+
+Restrictions de fonctions : Pour les premiers exercices, printf, puts sont souvent restreints (spécifique à l'exercice).
+
+_putchar : Cette fonction est utilisée lorsque les fonctions standard d'affichage sont interdites.
+
+Scripts Shell : Si applicables, les scripts Shell sont de deux lignes exactes et commencent par #!/bin/bash.
+
+
+
+# ✍️ Auteur
+Mathieu GODALIER - Élève en programmation

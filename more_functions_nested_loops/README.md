@@ -1,36 +1,87 @@
-Resources
-Read or watch:
+# 📚 holbertonschool-low_level_programming : Immersion dans le C de Bas Niveau
 
-Nested while loops
-C - Functions
-Learning to Program in C (Part 06) (stop at 14:00)
-What is the purpose of a function prototype?
-C - Header Files (stop before the “Once-Only Headers” paragraph)
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce répertoire est le point de départ de mon parcours d'apprentissage intensif du langage C, en mettant l'accent sur la programmation de bas niveau. Il compile l'ensemble des projets et exercices réalisés dans le cadre de ma formation, depuis les fondamentaux jusqu'aux concepts plus avancés.
 
-General
-What are nested loops and how to use them
-What is a function and how do you use functions
-What is the difference between a declaration and a definition of a function
-What is a prototype
-Scope of variables
-What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
-What are header files and how to to use them with #include
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-All your files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-You are not allowed to use global variables
-No more than 5 functions per file
-You are not allowed to use the standard library. Any use of functions like printf, puts, etc… is forbidden
-You are allowed to use _putchar
-You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account
-In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
-The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
-Don’t forget to push your header file
-More Info
-You do not have to understand the call by reference (address), stack, static variables, recursions or arrays, yet.
+Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
+
+# 🌀 Projet : Fonctions et Boucles Imbriquées Avancées en C
+Bienvenue dans ce projet dédié à l'approfondissement des fonctions et des boucles imbriquées en C ! Après les bases, ce projet pousse plus loin la maîtrise de la modularité et du contrôle de flux. C'est une étape clé pour écrire du code C structuré, réutilisable et efficace, en particulier pour des tâches répétitives et complexes.
+
+# 🎯 Objectifs d'Apprentissage
+À l'issue de ce projet, je suis capable d'expliquer clairement à quiconque, sans l'aide de Google :
+
+L'utilisation avancée des boucles imbriquées et leurs applications pratiques.
+
+Comment définir et utiliser des fonctions pour organiser et réutiliser le code.
+
+La distinction cruciale entre la déclaration et la définition d'une fonction.
+
+L'importance et le rôle des prototypes de fonctions.
+
+Le concept de la portée des variables et son impact sur le code.
+
+La signification et l'utilité des flags de compilation GCC (-Wall, -Werror, -Wextra, -pedantic, -std=gnu89).
+
+Comment utiliser les fichiers d'en-tête (.h) et la directive #include pour une meilleure gestion des projets.
+
+# 🛠️ Technologies et Environnement
+Langage : C
+
+Compilateur : GCC (GNU Compiler Collection)
+
+Options de compilation : -Wall -Werror -Wextra -pedantic -std=gnu89
+
+Environnement : Ubuntu 20.04 LTS
+
+Éditeurs : vi, vim, emacs
+
+# 📖 Structure du Projet et Exercices
+Ce dépôt contient plusieurs exercices qui mettent en pratique les concepts de fonctions et de boucles imbriquées, ainsi que la gestion des fichiers d'en-tête :
+
+main.h : Mon fichier d'en-tête centralisé, incluant les prototypes de toutes les fonctions du projet, y compris _putchar.
+* **[lien vers main.h](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/more_functions_nested_loops/main.h)** 
+
+* **[Lien vers 0-isupper.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/more_functions_nested_loops/0-isupper.c)**  : Une fonction qui vérifie si un caractère est une majuscule.
+
+* **[Lien vers 1-isdigit.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/more_functions_nested_loops/1-isdigit.c)**  : Une fonction qui vérifie si un caractère est un chiffre.
+
+* **[Lien vers 2-mul.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/more_functions_nested_loops/2-mul.c)**  : Une fonction qui multiplie deux entiers.
+
+* **[Lien vers 3-print_numbers.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/more_functions_nested_loops/3-print_numbers.c)**  : Une fonction qui imprime les chiffres de 0 à 9.
+
+* **[Lien vers 4-print_most_numbers.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/more_functions_nested_loops/4-print_most_numbers.c)**  : Une fonction qui imprime les chiffres de 0 à 9, sauf 2 et 4.
+
+* **[Lien vers 5-more_numbers.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/more_functions_nested_loops/5-more_numbers.c)**  : Une fonction qui imprime les nombres de 0 à 14, dix fois.
+
+* **[Lien vers 6-print_line.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/more_functions_nested_loops/6-print_line.c)**  : Une fonction qui dessine une ligne droite dans le terminal.
+
+* **[Lien vers 7-print_diagonal.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/more_functions_nested_loops/7-print_diagonal.c)**  : Une fonction qui dessine une diagonale.
+
+* **[Lien vers 8-print_square.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/more_functions_nested_loops/8-print_square.c)**  : Une fonction qui dessine un carré.
+
+* **[Lien vers 9-fizz_buzz.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/more_functions_nested_loops/9-fizz_buzz.c)**  : Un programme qui résout le problème Fizz-Buzz.
+
+* **[Lien vers 10-print_triangle.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/more_functions_nested_loops/10-print_triangle.c)**  : Une fonction qui dessine un triangle.
+
+* **[Lien vers 100-prime_factor.c]()**  : Un programme qui trouve le plus grand facteur premier d'un nombre donné. (à faire)
+
+* **[Lien vers 101-print_number.c]()**  : Une fonction qui imprime un entier en utilisant uniquement _putchar. (à faire)
+
+
+# 💡 Contraintes et Bonnes Pratiques
+Ce projet adhère à des règles de codage strictes pour garantir la qualité et la conformité :
+
+Style Betty : Respect scrupuleux du style de code Betty, vérifié par betty-style.pl et betty-doc.pl.
+
+Pas de variables globales : L'utilisation de variables globales est strictement interdite.
+
+Modularité : Pas plus de 5 fonctions par fichier.
+
+Interdiction de la Bibliothèque Standard : L'utilisation de fonctions comme printf, puts, etc., est formellement proscrite. Seule la fonction _putchar est autorisée pour l'affichage.
+
+_putchar : Cette fonction est utilisée pour toutes les opérations d'affichage (le fichier _putchar.c n'est pas à pousser).
+
+Protection d'en-tête : Le fichier main.h doit être protégé contre les inclusions multiples (include guards).
+
+# ✍️ Auteur
+Mathieu GODALIER - Élève en programmation

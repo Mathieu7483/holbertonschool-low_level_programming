@@ -1,34 +1,85 @@
-Resources
-Read or watch:
+# 📚 holbertonschool-low_level_programming : Immersion dans le C de Bas Niveau
 
-Recursion, introduction
-What on Earth is Recursion?
-C - Recursion
-C Programming Tutorial 85, Recursion pt.1
-C Programming Tutorial 86, Recursion pt.2
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce répertoire est le point de départ de mon parcours d'apprentissage intensif du langage C, en mettant l'accent sur la programmation de bas niveau. Il compile l'ensemble des projets et exercices réalisés dans le cadre de ma formation, depuis les fondamentaux jusqu'aux concepts plus avancés.
 
-General
-What is recursion
-How to implement recursion
-In what situations you should implement recursion
-In what situations you shouldn’t implement recursion
+Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
+# 🔄 Projet : Maîtrise de la Récursivité en C
+Bienvenue dans ce projet dédié à l'exploration et la maîtrise de la récursivité en C ! La récursivité est une technique de programmation élégante où une fonction s'appelle elle-même pour résoudre un problème. Ce projet m'a permis de comprendre comment penser récursivement et d'appliquer cette approche pour des solutions concises et efficaces.
 
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-All your files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-You are not allowed to use global variables
-No more than 5 functions per file
-You are not allowed to use the standard library. Any use of functions like printf, puts, etc… is forbidden
-You are allowed to use _putchar
-You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account
-In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
-The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
-Don’t forget to push your header file
-You are not allowed to use any kind of loops
-You are not allowed to use static variables
+# 🎯 Objectifs d'Apprentissage
+À la fin de ce projet, je suis capable d'expliquer à quiconque, sans l'aide de ressources externes :
+
+Ce qu'est la récursivité et comment elle fonctionne.
+
+Comment implémenter la récursivité dans un programme C.
+
+Les situations appropriées où la récursivité est une solution optimale.
+
+Les situations où la récursivité devrait être évitée (par exemple, problèmes de performance ou de pile).
+
+# 🛠️ Technologies et Environnement
+Langage : C
+
+Compilateur : GCC (GNU Compiler Collection)
+
+Options de compilation : -Wall -Werror -Wextra -pedantic -std=gnu89
+
+Environnement : Ubuntu 20.04 LTS
+
+Éditeurs : vi, vim, emacs
+
+# 📖 Structure du Projet et Exercices
+Ce dépôt contient une série d'exercices conçus pour explorer différents aspects de la récursivité. Chaque fichier illustre une application spécifique de cette technique :
+
+main.h : Mon fichier d'en-tête centralisé, incluant les prototypes de toutes les fonctions du projet, y compris _putchar.
+* **[Lien vers main.h](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/recursion/main.h)** 
+
+* **[Lien vers 0-puts_recursion.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/recursion/0-puts_recursion.c)** : Une fonction récursive qui imprime une chaîne de caractères.
+
+* **[Lien vers 1-print_rev_recursion.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/recursion/1-print_rev_recursion.c)** : Une fonction récursive qui imprime une chaîne à l'envers.
+
+* **[Lien vers 2-strlen_recursion.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/recursion/2-strlen_recursion.c)** : Une fonction récursive qui retourne la longueur d'une chaîne.
+
+* **[Lien vers 3-factorial.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/recursion/3-factorial.c)** : Une fonction récursive qui calcule la factorielle d'un nombre.
+
+* **[Lien vers 4-pow_recursion.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/recursion/4-pow_recursion.c)** : Une fonction récursive qui retourne la valeur de x élevée à la puissance y.
+
+* **[Lien vers 5-sqrt_recursion.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/recursion/5-sqrt_recursion.c)** : Une fonction récursive qui retourne la racine carrée naturelle d'un nombre.
+
+* **[Lien vers 6-is_prime_number.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/recursion/6-is_prime_number.c)** : Une fonction récursive qui détermine si un nombre est premier.
+
+
+
+
+# 💡 Contraintes et Bonnes Pratiques
+Ce projet adhère à des règles de codage strictes pour garantir la qualité du code et l'apprentissage de la récursivité pure :
+
+Style Betty : Conformité aux normes de style Betty, vérifiée par betty-style.pl et betty-doc.pl.
+
+Pas de variables globales : L'utilisation de variables globales est proscrite.
+
+Modularité : Pas plus de 5 fonctions par fichier.
+
+Interdiction de la Bibliothèque Standard : L'utilisation de fonctions comme printf, puts, etc., est formellement proscrite. Seule la fonction _putchar est autorisée pour l'affichage.
+
+_putchar : Cette fonction est utilisée pour toutes les opérations d'affichage (le fichier _putchar.c n'est pas à pousser).
+
+Include Guards : Le fichier d'en-tête main.h doit être protégé par des include guards.
+
+Pas de boucles : Aucune boucle (for, while, do-while) n'est autorisée. Toutes les solutions doivent être purement récursives.
+
+Pas de variables statiques : L'utilisation de variables statiques est interdite.
+
+👨‍💻 Comment Compiler et Exécuter
+Pour compiler les fichiers de ce projet, assure-toi d'avoir GCC installé sur un système Ubuntu 20.04 LTS.
+
+Exemple de compilation et d'exécution (pour 0-puts_recursion.c) :
+```bash
+
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 0-main.c 0-puts_recursion.c -o puts_recursion
+./puts_recursion
+# Résultat attendu : (dépend du 0-main.c de test)
+```
+
+# ✍️ Auteur
+Mathieu GODALIER - Élève en programmation
