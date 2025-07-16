@@ -4,10 +4,10 @@ Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce rép
 
 Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
 
-💾 Projet : Gestion Dynamique de la Mémoire avec malloc et free en C
+# 💾 Projet : Gestion Dynamique de la Mémoire avec malloc et free en C
 Bienvenue dans ce projet essentiel qui plonge au cœur de la gestion dynamique de la mémoire en C, en explorant les fonctions malloc et free ! Comprendre comment allouer et désallouer de la mémoire explicitement est une compétence fondamentale pour tout programmeur C, car elle permet de créer des structures de données de taille variable et de gérer efficacement les ressources. Ce projet a été clé pour maîtriser ces concepts vitaux.
 
-🎯 Objectifs d'Apprentissage
+# 🎯 Objectifs d'Apprentissage
 À la fin de ce projet, je suis capable d'expliquer clairement à n'importe qui, sans aucune aide :
 
 La différence entre l'allocation automatique et l'allocation dynamique de mémoire.
@@ -18,7 +18,7 @@ Pourquoi et quand il est nécessaire d'utiliser malloc.
 
 Comment utiliser Valgrind pour détecter les fuites de mémoire.
 
-🛠️ Technologies et Environnement
+# 🛠️ Technologies et Environnement
 Langage : C
 
 Compilateur : GCC (GNU Compiler Collection)
@@ -31,7 +31,7 @@ Environnement : Ubuntu 20.04 LTS
 
 Outil de débogage mémoire : Valgrind
 
-📖 Structure du Projet et Exercices
+# 📖 Structure du Projet et Exercices
 Ce dépôt contient divers exercices conçus pour illustrer les différentes facettes de l'allocation et de la libération de mémoire :
 
 main.h : Mon fichier d'en-tête, contenant les prototypes de toutes les fonctions du projet, y compris _putchar.
@@ -51,7 +51,7 @@ main.h : Mon fichier d'en-tête, contenant les prototypes de toutes les fonction
 * **[Lien vers 101-strtow.c]()** : Une fonction qui divise une chaîne en mots. ( à faire)
 
 
-💡 Contraintes et Bonnes Pratiques
+# 💡 Contraintes et Bonnes Pratiques
 Ce projet a été développé en respectant des exigences strictes pour garantir la qualité du code et la bonne gestion de la mémoire :
 
 Style Betty : Conformité aux normes de style Betty, vérifiée par betty-style.pl et betty-doc.pl.
@@ -66,15 +66,7 @@ _putchar : La fonction _putchar est autorisée pour l'affichage (le fichier _put
 
 Include Guards : Le fichier d'en-tête main.h doit être protégé par des include guards.
 
-👨‍💻 Comment Compiler et Exécuter
-Pour compiler les fichiers de ce projet, assure-toi d'avoir GCC installé sur un système Ubuntu 20.04 LTS. Pour la détection des fuites de mémoire, Valgrind est un outil indispensable.
-
-Exemple de compilation et d'exécution (pour un fichier de test avec 0-create_array.c) :
-
-Bash
-
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 main.c 0-create_array.c -o create_array_test
-./create_array_test
+# 👨‍💻 Comment verifier la mémoire
 Pour vérifier les fuites de mémoire avec Valgrind :
 
 Bash
@@ -82,5 +74,5 @@ Bash
 valgrind ./create_array_test
 (Adapte les commandes de compilation et d'exécution en fonction de chaque exercice et des fichiers de test main.c que tu utilises.)
 
-✍️ Auteur
-Mathieu - Élève en programmation
+# ✍️ Auteur
+Mathieu GODALIER- Élève en programmation
