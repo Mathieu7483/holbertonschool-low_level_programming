@@ -4,10 +4,10 @@ Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce rép
 
 Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
 
-🌀 Projet : Fonctions et Boucles Imbriquées Avancées en C
+# 🌀 Projet : Fonctions et Boucles Imbriquées Avancées en C
 Bienvenue dans ce projet dédié à l'approfondissement des fonctions et des boucles imbriquées en C ! Après les bases, ce projet pousse plus loin la maîtrise de la modularité et du contrôle de flux. C'est une étape clé pour écrire du code C structuré, réutilisable et efficace, en particulier pour des tâches répétitives et complexes.
 
-🎯 Objectifs d'Apprentissage
+# 🎯 Objectifs d'Apprentissage
 À l'issue de ce projet, je suis capable d'expliquer clairement à quiconque, sans l'aide de Google :
 
 L'utilisation avancée des boucles imbriquées et leurs applications pratiques.
@@ -24,7 +24,7 @@ La signification et l'utilité des flags de compilation GCC (-Wall, -Werror, -We
 
 Comment utiliser les fichiers d'en-tête (.h) et la directive #include pour une meilleure gestion des projets.
 
-🛠️ Technologies et Environnement
+# 🛠️ Technologies et Environnement
 Langage : C
 
 Compilateur : GCC (GNU Compiler Collection)
@@ -35,7 +35,7 @@ Environnement : Ubuntu 20.04 LTS
 
 Éditeurs : vi, vim, emacs
 
-📖 Structure du Projet et Exercices
+# 📖 Structure du Projet et Exercices
 Ce dépôt contient plusieurs exercices qui mettent en pratique les concepts de fonctions et de boucles imbriquées, ainsi que la gestion des fichiers d'en-tête :
 
 main.h : Mon fichier d'en-tête centralisé, incluant les prototypes de toutes les fonctions du projet, y compris _putchar.
@@ -68,7 +68,7 @@ main.h : Mon fichier d'en-tête centralisé, incluant les prototypes de toutes l
 * **[Lien vers 101-print_number.c]()**  : Une fonction qui imprime un entier en utilisant uniquement _putchar. (à faire)
 
 
-💡 Contraintes et Bonnes Pratiques
+# 💡 Contraintes et Bonnes Pratiques
 Ce projet adhère à des règles de codage strictes pour garantir la qualité et la conformité :
 
 Style Betty : Respect scrupuleux du style de code Betty, vérifié par betty-style.pl et betty-doc.pl.
@@ -83,5 +83,5 @@ _putchar : Cette fonction est utilisée pour toutes les opérations d'affichage 
 
 Protection d'en-tête : Le fichier main.h doit être protégé contre les inclusions multiples (include guards).
 
-✍️ Auteur
+# ✍️ Auteur
 Mathieu GODALIER - Élève en programmation
