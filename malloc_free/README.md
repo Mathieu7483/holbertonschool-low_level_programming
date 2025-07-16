@@ -1,3 +1,9 @@
+# 📚 holbertonschool-low_level_programming : Immersion dans le C de Bas Niveau
+
+Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce répertoire est le point de départ de mon parcours d'apprentissage intensif du langage C, en mettant l'accent sur la programmation de bas niveau. Il compile l'ensemble des projets et exercices réalisés dans le cadre de ma formation, depuis les fondamentaux jusqu'aux concepts plus avancés.
+
+Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
+
 💾 Projet : Gestion Dynamique de la Mémoire avec malloc et free en C
 Bienvenue dans ce projet essentiel qui plonge au cœur de la gestion dynamique de la mémoire en C, en explorant les fonctions malloc et free ! Comprendre comment allouer et désallouer de la mémoire explicitement est une compétence fondamentale pour tout programmeur C, car elle permet de créer des structures de données de taille variable et de gérer efficacement les ressources. Ce projet a été clé pour maîtriser ces concepts vitaux.
 
