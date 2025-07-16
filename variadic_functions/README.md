@@ -1,33 +1,53 @@
-Resources
-Read or watch:
+# 🚀 Projet : Fonctions Variadiques et `const` en C
 
-stdarg.h
-Variadic Functions
-Const Keyword
-man or help:
+Bienvenue dans ce projet dédié à l'exploration des **fonctions variadiques** et de l'utilisation du mot-clé `const` en C ! Ce travail fait partie de mon parcours d'apprentissage de la programmation, et il m'a permis de solidifier ma compréhension de concepts fondamentaux et avancés du langage C.
 
-stdarg
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+## 🎯 Objectifs d'apprentissage
 
-General
-What are variadic functions
-How to use va_start, va_arg and va_end macros
-Why and how to use the const type qualifier
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-All your files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-You are not allowed to use global variables
-No more than 5 functions per file
-The only C standard library functions allowed are malloc, free and exit. Any use of functions like printf, puts, calloc, realloc etc… is forbidden
-You are allowed to use the following macros: va_start, va_arg and va_end
-You are allowed to use _putchar
-You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account
-In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
-The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called variadic_functions.h
-Don’t forget to push your header file
-All your header files should be include guarded
+À travers ce projet, j'ai cherché à maîtriser les points suivants :
+
+* **Comprendre les fonctions variadiques** : Qu'est-ce qu'une fonction variadique et pourquoi est-elle utile ?
+* **Maîtriser les macros `va_start`, `va_arg` et `va_end`** : Comment utiliser ces macros de la bibliothèque `<stdarg.h>` pour manipuler un nombre variable d'arguments.
+* **Appliquer le qualificateur de type `const`** : Pourquoi et comment utiliser `const` pour améliorer la robustesse et la clarté du code.
+
+## 🛠️ Technologies et Environnement
+
+* **Langage** : C
+* **Compilateur** : GCC (GNU Compiler Collection)
+* **Options de compilation** : `-Wall -Werror -Wextra -pedantic -std=gnu89`
+* **Environnement** : Ubuntu 20.04 LTS
+* **Éditeurs** : `vi`, `vim`, `emacs`
+
+## 📖 Structure du Projet
+
+Ce dépôt contient les fichiers suivants, chacun illustrant un aspect des fonctions variadiques ou de l'utilisation de `const` :
+
+* `variadic_functions.h` : Mon fichier d'en-tête contenant les prototypes de toutes les fonctions.
+* **[Lien vers 0-sum_them_all.c]** : Une fonction qui additionne tous ses arguments.
+* **[Lien vers 1-print_numbers.c]** : Une fonction qui imprime des nombres, séparés par un séparateur donné.
+* **[Lien vers 2-print_strings.c]** : Une fonction qui imprime des chaînes de caractères.
+* **[Lien vers 3-print_all.c]** : Une fonction plus générique capable d'imprimer différents types de données.
+* ... (Ajoute d'autres liens vers tes fichiers d'exercices ici)
+
+*(Chaque lien doit pointer vers le fichier source correspondant dans ton dépôt GitHub. Par exemple, si ton fichier `0-sum_them_all.c` est directement à la racine de ton projet, le lien pourrait être `[0-sum_them_all.c](./0-sum_them_all.c)`.)*
+
+## 💡 Contraintes et Bonnes Pratiques
+
+Ce projet a été réalisé en respectant des exigences strictes pour garantir la qualité du code :
+
+* **Style Betty** : Respect du style de code Betty, vérifié par `betty-style.pl` et `betty-doc.pl`.
+* **Pas de variables globales** : Toutes les variables sont locales.
+* **Gestion de la mémoire** : Utilisation exclusive de `malloc`, `free` et `exit` pour la gestion de la mémoire.
+* **Nombre de fonctions par fichier** : Pas plus de 5 fonctions par fichier.
+* **Protection d'inclusion** : Tous les fichiers d'en-tête sont protégés par des include guards.
+* **`_putchar`** : Utilisation de `_putchar` pour l'affichage (non fourni dans le dépôt).
+
+## 👨‍💻 Comment compiler et exécuter
+
+Pour compiler les fichiers de ce projet, assurez-vous d'avoir GCC installé sur un système Ubuntu 20.04 LTS.
+
+Exemple de compilation (pour un fichier spécifique, par exemple `0-sum_them_all.c` avec son `main.c` de test) :
+
+```bash
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 main.c 0-sum_them_all.c -o sum_them_all
+./sum_them_all
