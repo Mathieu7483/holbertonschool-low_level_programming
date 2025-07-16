@@ -1,29 +1,61 @@
-Resources
-Read or watch:
+Super, Mathieu ! Attaquons le README pour ton projet sur les structures et typedef en C. C'est une étape cruciale pour organiser des données complexes et rendre ton code plus lisible et maintenable.
 
-0x0d. Structures.pdf
-struct (C programming language)
-Documentation: structures
-0x0d. Typedef and structures.pdf
-typedef
-Programming in C by Stephen Kochan - Chapter 8, Working with Structures p163-189
-The Lost Art of C Structure Packing (Advanced - not mandatory)
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+🏗️ Projet : Structures et typedef en C - Organiser vos Données
+Bienvenue dans ce projet fondamental qui explore les structures (struct) et la directive typedef en C ! C'est ici que j'ai appris à organiser des données de types différents en une seule entité logique, et à créer des alias de types pour un code plus propre et plus facile à lire. Ce projet a été essentiel pour passer à une programmation C plus structurée et plus avancée.
 
-General
-What are structures, when, why and how to use them
-How to use typedef
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-All your files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-You are not allowed to use global variables
-No more than 5 functions per file
-The only C standard library functions allowed are printf, malloc, free and exit.
-In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
-Don’t forget to push your header file
-All your header files should be include guarded
+🎯 Objectifs d'Apprentissage
+À la fin de ce projet, je suis capable d'expliquer à quiconque, sans l'aide de ressources externes :
+
+Ce que sont les structures : Leur définition, leur utilité et comment les manipuler.
+
+Quand, pourquoi et comment utiliser les structures pour regrouper des données hétérogènes.
+
+Comment utiliser la directive typedef pour créer des alias de types existants, y compris les structures.
+
+🛠️ Technologies et Environnement
+Langage : C
+
+Compilateur : GCC (GNU Compiler Collection)
+
+Options de compilation : -Wall -Werror -Wextra -pedantic -std=gnu89
+
+Environnement : Ubuntu 20.04 LTS
+
+Éditeurs : vi, vim, emacs
+
+📖 Structure du Projet et Exercices
+Ce dépôt contient divers exercices conçus pour illustrer la création, la manipulation et l'utilisation de structures, ainsi que l'application de typedef :
+
+main.h : Mon fichier d'en-tête, contenant les définitions de structures, les prototypes de fonctions, et les typedef pertinents.
+* **[Lien vers le main.h](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/structures_typedef/main.h)**
+* **[Lien vers le dog.h](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/structures_typedef/dog.h)** en-tête qui servira pour cet exercice
+
+* **[Lien vers 0-init_dog.c]()** : Une fonction qui initialise une variable de type struct dog. (cf dog.h)
+
+* **[Lien vers 1-dog_t.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/structures_typedef/1-init_dog.c))** : Une fonction qui définit un nouveau type dog_t basé sur struct dog.
+
+* **[Lien vers 2-print_dog.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/structures_typedef/2-print_dog.c)** : Une fonction qui affiche les informations d'une structure dog.
+
+* **[Lien vers 3-add_nodeint.c]()** : Une fonction qui ajoute un nouveau nœud au début d'une liste chaînée (exemple d'utilisation de structures cf dog.h).
+
+* **[Lien vers 4-new_dog.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/structures_typedef/4-new_dog.c)** : Une fonction qui crée une nouvelle structure dog_t et copie ses données.
+
+* **[Lien vers 5-free_dog.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/structures_typedef/5-free_dog.c)** : Une fonction qui libère la mémoire allouée pour une structure dog_t.
+
+
+💡 Contraintes et Bonnes Pratiques
+Ce projet adhère à des règles de codage strictes pour garantir la qualité du code et une bonne pratique des structures et typedef :
+
+Style Betty : Conformité aux normes de style Betty, vérifiée par betty-style.pl et betty-doc.pl.
+
+Pas de variables globales : L'utilisation de variables globales est proscrite.
+
+Modularité : Pas plus de 5 fonctions par fichier.
+
+Fonctions Standard Autorisées : printf, malloc, free et exit sont autorisées pour ce projet.
+
+Include Guards : Tous les fichiers d'en-tête doivent être protégés par des include guards.
+
+
+✍️ Auteur
+Mathieu GODALIER - Élève en programmation
