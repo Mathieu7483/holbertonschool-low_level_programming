@@ -1,3 +1,9 @@
+# 📚 holbertonschool-low_level_programming : Immersion dans le C de Bas Niveau
+
+Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce répertoire est le point de départ de mon parcours d'apprentissage intensif du langage C, en mettant l'accent sur la programmation de bas niveau. Il compile l'ensemble des projets et exercices réalisés dans le cadre de ma formation, depuis les fondamentaux jusqu'aux concepts plus avancés.
+
+Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
+
 # 🎯 Projet : Maîtrise des Pointeur de Fonctions en C
 
 Bienvenue dans ce projet fondamental qui plonge au cœur des **pointeurs de fonctions** en C ! C'est une étape cruciale pour comprendre des concepts plus avancés comme les callbacks ou l'implémentation de tables de fonctions. Ce travail m'a permis d'acquérir une compréhension solide de la manipulation des fonctions comme des données.
