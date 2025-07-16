@@ -53,8 +53,5 @@ Ce projet a été développé en suivant des règles strictes pour garantir un c
 
 Pour compiler les sources de ce projet, assure-toi d'avoir GCC sur un système Ubuntu 20.04 LTS.
 
-Exemple de compilation (pour le fichier `0-print_name.c` avec un `main.c` de test) :
-
-```bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 main.c 0-print_name.c -o print_name
-./print_name
+# ✍️ Auteur
+Mathieu GODALIER- Élève en programmation
