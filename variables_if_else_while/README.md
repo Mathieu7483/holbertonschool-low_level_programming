@@ -3,10 +3,11 @@
 Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce répertoire est le point de départ de mon parcours d'apprentissage intensif du langage C, en mettant l'accent sur la programmation de bas niveau. Il compile l'ensemble des projets et exercices réalisés dans le cadre de ma formation, depuis les fondamentaux jusqu'aux concepts plus avancés.
 
 Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
-📊 Projet : Variables, Conditions (if/else) et Boucles (while) en C
+
+# 📊 Projet : Variables, Conditions (if/else) et Boucles (while) en C
 Bienvenue dans ce projet initial qui plonge dans les éléments fondamentaux de la programmation en C : les variables, les opérateurs, les conditions (if/else) et les boucles (while) ! C'est le point de départ pour écrire des programmes capables de prendre des décisions et de répéter des actions. J'ai acquis ici une compréhension solide des briques de base de tout algorithme.
 
-🎯 Objectifs d'Apprentissage
+# 🎯 Objectifs d'Apprentissage
 À la fin de ce projet, je suis capable d'expliquer à quiconque, sans l'aide de ressources externes :
 
 Les opérateurs arithmétiques : Comment les utiliser pour les calculs.
@@ -31,7 +32,7 @@ Le jeu de caractères ASCII et son importance.
 
 Le rôle des flags gcc -m32 et -m64 lors de la compilation.
 
-🛠️ Technologies et Environnement
+# 🛠️ Technologies et Environnement
 Langage : C
 
 Compilateur : GCC (GNU Compiler Collection)
@@ -42,7 +43,7 @@ Environnement : Ubuntu 20.04 LTS
 
 Éditeurs : vi, vim, emacs
 
-📖 Structure du Projet et Exercices
+# 📖 Structure du Projet et Exercices
 Ce dépôt contient une série d'exercices pratiques conçus pour explorer ces concepts fondamentaux.
 
 * **[Lien vers 0-positive_or_negative.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/variables_if_else_while/0-positive_or_negative.c)** : Un programme qui assigne un nombre aléatoire à une variable et indique si ce nombre est positif, négatif ou zéro.
@@ -73,7 +74,7 @@ Ce dépôt contient une série d'exercices pratiques conçus pour explorer ces c
 
 
 
-💡 Contraintes et Bonnes Pratiques
+# 💡 Contraintes et Bonnes Pratiques
 Ce projet adhère à des règles de codage strictes pour garantir la qualité et la conformité :
 
 Éditeurs Autorisés : vi, vim, emacs.
@@ -94,9 +95,6 @@ Pas de boucles for ou do...while, ni de fonctions personnalisées (sauf indicati
 
 Pas de scanf, getc, getchar, EOF, EXIT_SUCCESS, time, rand, srand, RAND_MAX.
 
-👨‍💻 Comment Compiler et Exécuter
-Pour compiler les fichiers de ce projet, assure-toi d'avoir GCC installé sur un système Ubuntu 20.04 LTS.
 
-
-✍️ Auteur
+# ✍️ Auteur
 Mathieu GODALIER - Élève en programmation
