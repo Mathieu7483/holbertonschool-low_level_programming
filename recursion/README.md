@@ -1,3 +1,8 @@
+# 📚 holbertonschool-low_level_programming : Immersion dans le C de Bas Niveau
+
+Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce répertoire est le point de départ de mon parcours d'apprentissage intensif du langage C, en mettant l'accent sur la programmation de bas niveau. Il compile l'ensemble des projets et exercices réalisés dans le cadre de ma formation, depuis les fondamentaux jusqu'aux concepts plus avancés.
+
+Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
 🔄 Projet : Maîtrise de la Récursivité en C
 Bienvenue dans ce projet dédié à l'exploration et la maîtrise de la récursivité en C ! La récursivité est une technique de programmation élégante où une fonction s'appelle elle-même pour résoudre un problème. Ce projet m'a permis de comprendre comment penser récursivement et d'appliquer cette approche pour des solutions concises et efficaces.
 
