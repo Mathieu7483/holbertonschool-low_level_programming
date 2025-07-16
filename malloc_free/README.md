@@ -71,8 +71,7 @@ Pour vérifier les fuites de mémoire avec Valgrind :
 
 Bash
 
-valgrind ./create_array_test
-(Adapte les commandes de compilation et d'exécution en fonction de chaque exercice et des fichiers de test main.c que tu utilises.)
+valgrind --leak-check=full ./mon_programme
 
 # ✍️ Auteur
 Mathieu GODALIER- Élève en programmation
