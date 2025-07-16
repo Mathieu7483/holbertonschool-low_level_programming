@@ -4,7 +4,7 @@
 /**
 *get_op_func - function to get the operator
 *@s: string S
-*Return: comparison
+*Return: comparison or NULL
 */
 int (*get_op_func(char *s))(int, int)
 {
