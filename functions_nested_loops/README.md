@@ -4,10 +4,10 @@ Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce rép
 
 Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
 
-🚀 Projet : Fonctions et Boucles Imbriquées en C
+# 🚀 Projet : Fonctions et Boucles Imbriquées en C
 Bienvenue dans ce projet fondamental qui explore les fonctions, les boucles imbriquées et les bases de l'organisation du code en C ! Ce travail est crucial pour développer des programmes structurés et efficaces, et il m'a permis de maîtriser les mécanismes de base du contrôle de flux et de la modularisation.
 
-🎯 Objectifs d'apprentissage
+# 🎯 Objectifs d'apprentissage
 À travers ce projet, je suis maintenant capable d'expliquer à quiconque, sans aucune aide :
 
 Que sont les boucles imbriquées et comment les utiliser pour des tâches complexes (comme l'affichage de motifs).
@@ -24,7 +24,7 @@ La signification et l'utilité des flags de compilation GCC (-Wall, -Werror, -We
 
 Que sont les fichiers d'en-tête (.h) et comment les utiliser avec #include.
 
-🛠️ Technologies et Environnement
+# 🛠️ Technologies et Environnement
 Langage : C
 
 Compilateur : GCC (GNU Compiler Collection)
@@ -35,7 +35,7 @@ Environnement : Ubuntu 20.04 LTS
 
 Éditeurs : vi, vim, emacs
 
-📖 Structure du Projet
+# 📖 Structure du Projet
 Ce dépôt contient les fichiers d'exercices suivants, chacun illustrant les concepts abordés :
 
 main.h : Mon fichier d'en-tête, contenant les prototypes de toutes les fonctions du projet, y compris _putchar.
@@ -73,7 +73,7 @@ main.h : Mon fichier d'en-tête, contenant les prototypes de toutes les fonction
 * **[Lien vers 103-fibonacci.c]()** : (Si tu as d'autres exercices, ajoute-les ici)
 
 
-💡 Contraintes et Bonnes Pratiques
+# 💡 Contraintes et Bonnes Pratiques
 Ce projet adhère à des règles de codage strictes pour garantir la qualité et la conformité :
 
 Style Betty : Respect scrupuleux du style de code Betty, vérifié par betty-style.pl et betty-doc.pl.
@@ -88,17 +88,6 @@ _putchar : Cette fonction est utilisée pour toutes les opérations d'affichage 
 
 Protection d'en-tête : Le fichier main.h doit être protégé contre les inclusions multiples (include guards).
 
-👨‍💻 Comment compiler et exécuter
-Pour compiler les fichiers de ce projet, assure-toi d'avoir GCC installé sur un système Ubuntu 20.04 LTS.
 
-Exemple de compilation et d'exécution (pour 1-alphabet.c) :
-
-Bash
-
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 main.c 1-alphabet.c -o alphabet
-./alphabet
-# Résultat attendu : abcdefghijklmnopqrstuvwxyz
-(Adapte les commandes de compilation et d'exécution en fonction de chaque exercice.)
-
-✍️ Auteur
+# ✍️ Auteur
 Mathieu - Élève en programmation
