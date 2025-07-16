@@ -92,14 +92,6 @@ Pas de scanf, getc, getchar, EOF, EXIT_SUCCESS, time, rand, srand, RAND_MAX.
 👨‍💻 Comment Compiler et Exécuter
 Pour compiler les fichiers de ce projet, assure-toi d'avoir GCC installé sur un système Ubuntu 20.04 LTS.
 
-Exemple de compilation et d'exécution (pour 0-positive_or_negative.c) :
-
-Bash
-
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 0-positive_or_negative.c -o positive_or_negative
-./positive_or_negative
-# Le résultat dépendra du nombre aléatoire généré.
-(Adapte les commandes de compilation et d'exécution en fonction de chaque exercice.)
 
 ✍️ Auteur
 Mathieu GODALIER - Élève en programmation
