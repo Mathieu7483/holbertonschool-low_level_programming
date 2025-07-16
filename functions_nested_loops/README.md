@@ -1,3 +1,9 @@
+# 📚 holbertonschool-low_level_programming : Immersion dans le C de Bas Niveau
+
+Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce répertoire est le point de départ de mon parcours d'apprentissage intensif du langage C, en mettant l'accent sur la programmation de bas niveau. Il compile l'ensemble des projets et exercices réalisés dans le cadre de ma formation, depuis les fondamentaux jusqu'aux concepts plus avancés.
+
+Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
+
 🚀 Projet : Fonctions et Boucles Imbriquées en C
 Bienvenue dans ce projet fondamental qui explore les fonctions, les boucles imbriquées et les bases de l'organisation du code en C ! Ce travail est crucial pour développer des programmes structurés et efficaces, et il m'a permis de maîtriser les mécanismes de base du contrôle de flux et de la modularisation.
 
