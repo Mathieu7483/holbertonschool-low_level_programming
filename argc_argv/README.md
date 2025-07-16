@@ -73,15 +73,5 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-mul.c -o mul
 (Adapte les commandes pour chaque programme en fonction de ses arguments attendus.)
 
 # ✍️ Auteur
-#Mathieu GODALIER- Élève en programmation
+Mathieu GODALIER- Élève en programmation
 
-Points clés de cette version :
-Titre clair et descriptif : "Maîtrise des Arguments de la Fonction main() en C" est direct et montre l'objectif.
-
-Introduction valorisante : Elle met en avant l'importance des arguments de main pour des programmes flexibles.
-
-Objectifs reformulés : Présentés comme des questions, ils sont plus percutants et faciles à mémoriser.
-
-Exemples d'utilisation concrets : J'ai ajouté des exemples d'exécution pour 3-mul.c qui montrent comment le programme est utilisé avec des arguments, et même des cas d'erreur. C'est très utile pour quelqu'un qui découvre ton code !
-
-Mise en évidence de la bibliothèque standard : J'ai souligné que l'utilisation de la bibliothèque standard est autorisée pour ce projet, ce qui est une information importante par rapport aux projets précédents.
