@@ -68,9 +68,9 @@ main.h : Mon fichier d'en-tête, contenant les prototypes de toutes les fonction
 
 * **[Lien vers 101-natural.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/functions_nested_loops/101-natural.c)** : Un programme qui calcule la somme des multiples de 3 ou 5.
 
-* **[Lien vers 102-fibonacci.c]()** : Un programme qui affiche les 50 premiers nombres de Fibonacci.
+* **[Lien vers 102-fibonacci.c]()** : Un programme qui affiche les 50 premiers nombres de Fibonacci. (à faire)
 
-* **[Lien vers 103-fibonacci.c]()** : (Si tu as d'autres exercices, ajoute-les ici)
+* **[Lien vers 103-fibonacci.c]()** : Un programme qui affiche les 100 premiers nombres de Fibonacci. (à faire)
 
 
 # 💡 Contraintes et Bonnes Pratiques
