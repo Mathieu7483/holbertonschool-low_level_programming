@@ -26,7 +26,7 @@ Ce dépôt est organisé pour explorer différentes facettes des pointeurs de fo
 * **[Lien vers 0-print_name.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/function_pointers/0-print_name.c)** : Une fonction simple qui utilise un pointeur de fonction pour imprimer un nom.
 * **[Lien vers 1-array_iterator.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/function_pointers/1-array_iterator.c)** : Une fonction qui exécute une fonction donnée sur chaque élément d'un tableau.
 * **[Lien vers 2-int_index.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/function_pointers/2-int_index.c)** : Une fonction qui recherche un entier dans un tableau en utilisant une fonction de comparaison.
-* **[Lien vers 3-op_functions.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/function_pointers/3-op_functions.c) fonction pour les opérations.
+* **[Lien vers 3-op_functions.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/function_pointers/3-op_functions.c)** : fonction pour les opérations.
 * **[lien vers 3-get_op_func.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/function_pointers/3-get_op_func.c)** : Implémentation d'un calculateur simple avec des pointeurs de fonctions pour les opérations.
 * **[Lien vers 3-main.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/function_pointers/3-main.c)** : Exemple d'utilisation du calculateur.
 * **[Lien vers 3-calc.h](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/function_pointers/3-calc.h)** : fichier d'en-tête pour l'exercice 3.
