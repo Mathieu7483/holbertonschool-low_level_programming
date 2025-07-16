@@ -49,9 +49,6 @@ Ce projet a été développé en suivant des règles strictes pour garantir un c
 * **`_putchar`** : Utilisation de la fonction `_putchar` pour l'affichage.
 * **Include Guards** : Tous les fichiers d'en-tête sont protégés contre les inclusions multiples.
 
-## 👨‍💻 Comment compiler et exécuter
-
-Pour compiler les sources de ce projet, assure-toi d'avoir GCC sur un système Ubuntu 20.04 LTS.
 
 # ✍️ Auteur
 Mathieu GODALIER- Élève en programmation
