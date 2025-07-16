@@ -5,10 +5,10 @@ Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce rép
 Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
 
 
-🔗 Projet : Pointeur et Tableaux en C - Maîtriser la Mémoire
+# 🔗 Projet : Pointeur et Tableaux en C - Maîtriser la Mémoire
 Bienvenue dans ce projet crucial sur les pointeurs et les tableaux en C ! Ce module est une étape essentielle pour quiconque souhaite comprendre comment le langage C interagit directement avec la mémoire. J'ai exploré ici les concepts fondamentaux qui sont la clé de voûte de la manipulation des données et des structures complexes.
 
-🎯 Objectifs d'Apprentissage
+# 🎯 Objectifs d'Apprentissage
 À la fin de ce projet, je suis capable d'expliquer à n'importe qui, sans l'aide de ressources externes :
 
 Ce que sont les pointeurs et comment les utiliser efficacement.
@@ -21,7 +21,7 @@ Comment utiliser et manipuler les chaînes de caractères en C.
 
 Le concept de la portée des variables (scope) et son importance.
 
-🛠️ Technologies et Environnement
+# 🛠️ Technologies et Environnement
 Langage : C
 
 Compilateur : GCC (GNU Compiler Collection)
@@ -32,7 +32,7 @@ Environnement : Ubuntu 20.04 LTS
 
 Éditeurs : vi, vim, emacs
 
-📖 Structure du Projet et Exercices
+# 📖 Structure du Projet et Exercices
 Ce dépôt contient divers exercices pratiques qui permettent de comprendre et d'appliquer les concepts de pointeurs, de tableaux et de chaînes de caractères :
 
 main.h : Mon fichier d'en-tête centralisé, incluant les prototypes de toutes les fonctions du projet, y compris _putchar.
@@ -93,7 +93,7 @@ main.h : Mon fichier d'en-tête centralisé, incluant les prototypes de toutes l
 * **[Lien vers 100-atoi.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/pointers_arrays_strings/100-atoi.c)** : Une fonction qui convertit une chaîne de caractères en un entier.
 
 
-💡 Contraintes et Bonnes Pratiques
+# 💡 Contraintes et Bonnes Pratiques
 Ce projet adhère à des règles de codage strictes pour garantir la qualité du code :
 
 Style Betty : Conformité aux normes de style Betty, vérifiée par betty-style.pl et betty-doc.pl.
@@ -108,16 +108,16 @@ _putchar : Cette fonction est utilisée pour toutes les opérations d'affichage 
 
 Include Guards : Le fichier d'en-tête main.h doit être protégé par des include guards.
 
-👨‍💻 Comment Compiler et Exécuter
+# 👨‍💻 Comment Compiler et Exécuter
 Pour compiler les fichiers de ce projet, assure-toi d'avoir GCC installé sur un système Ubuntu 20.04 LTS.
 
 Exemple de compilation et d'exécution (pour 0-memset.c) :
 
-Bash
+```bash
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 main.c 0-memset.c -o memset_test
 ./memset_test
-(Adapte les commandes de compilation et d'exécution en fonction de chaque exercice et des fichiers de test main.c que tu utilises.)
+```
 
-✍️ Auteur
+# ✍️ Auteur
 Mathieu GODALIER - Élève en programmation
