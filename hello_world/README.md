@@ -4,10 +4,10 @@ Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce rép
 
 Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
 
-🌍 Projet : Hello, C World! - Les Fondamentaux de la Compilation et de l'Affichage
+# 🌍 Projet : Hello, C World! - Les Fondamentaux de la Compilation et de l'Affichage
 Bienvenue dans le tout premier projet de mon parcours en C ! Ce projet 0x00-hello_world est une immersion pratique dans les bases du langage C, depuis le processus de compilation jusqu'aux premières interactions avec l'utilisateur via la console. Il pose les fondations de tous les futurs développements.
 
-🎯 Objectifs d'apprentissage
+# 🎯 Objectifs d'apprentissage
 À travers ce projet, j'ai acquis une compréhension claire des points suivants :
 
 Le rôle du préprocesseur : Ce qu'il fait et comment l'utiliser.
@@ -22,7 +22,7 @@ L'opérateur sizeof : Comment obtenir la taille des types de données.
 
 Compilation sans avertissements : Maîtrise des flags gcc comme -Wall, -Werror, etc.
 
-🛠️ Technologies et Environnement
+# 🛠️ Technologies et Environnement
 Langage : C
 
 Scripts : Shell / Bash
@@ -37,7 +37,7 @@ Environnement : Ubuntu 20.04 LTS
 
 Style de Code : Betty (vérifié par betty-style.pl et betty-doc.pl)
 
-📖 Structure du Projet et Exercices
+# 📖 Structure du Projet et Exercices
 Ce dossier contient des scripts shell et des programmes C qui illustrent les concepts de base. Chaque fichier représente un pas dans la compréhension du cycle de vie d'un programme C :
 
 * **[Lien vers 0-preprocessor](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hello_world/0-preprocessor)** : Un script Shell pour exécuter le préprocesseur sur un fichier C.
@@ -59,7 +59,7 @@ Ce dossier contient des scripts shell et des programmes C qui illustrent les con
 * **[Lien vers 101-quote.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hello_world/101-quote.c)** : Programme C qui affiche exactement "and that piece of art is useful" - Dora Korpar, 2015-10-19, suivi d'une nouvelle ligne, sur la sortie d'erreur standard.
 
 
-💡 Contraintes et Bonnes Pratiques
+# 💡 Contraintes et Bonnes Pratiques
 Ce projet respecte les règles de codage établies :
 
 Fichiers propres : Tous les fichiers se terminent par une nouvelle ligne.
@@ -76,31 +76,7 @@ _putchar : Cette fonction est utilisée lorsque les fonctions standard d'afficha
 
 Scripts Shell : Si applicables, les scripts Shell sont de deux lignes exactes et commencent par #!/bin/bash.
 
-👨‍💻 Comment Compiler et Exécuter
-Les exemples ci-dessous montrent comment compiler et exécuter les différents types de fichiers de ce projet. Assure-toi d'être sur un environnement Ubuntu 20.04 LTS avec GCC installé.
 
-Exemple 1 : Exécution d'un script Shell (Préprocesseur)
-
-Bash
-
-export CFILE=main.c
-./0-preprocessor
-cat c # Pour voir le résultat
-Exemple 2 : Compilation et Exécution d'un programme C (avec puts)
-
-Bash
-
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c -o puts_example
-./puts_example
-echo $? # Pour vérifier le code de retour
-Exemple 3 : Compilation avec nom d'exécutable personnalisé (cisfun)
-
-Bash
-
-export CFILE=main.c
-./3-name
-./cisfun # Exécute le programme compilé
 
 ✍️ Auteur
 Mathieu GODALIER - Élève en programmation
-
