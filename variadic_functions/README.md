@@ -23,12 +23,11 @@ Bienvenue dans ce projet dédié à l'exploration des **fonctions variadiques** 
 Ce dépôt contient les fichiers suivants, chacun illustrant un aspect des fonctions variadiques ou de l'utilisation de `const` :
 
 * `variadic_functions.h` : Mon fichier d'en-tête contenant les prototypes de toutes les fonctions.
-* ```markdown
+* **(https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/variadic_functions/variadic_functions.h)**
 * **[0-sum_them_all.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/variadic_functions/0-sum_them_all.c)** : Une fonction qui additionne tous ses arguments.: Une fonction qui additionne tous ses arguments.
 * **[Lien vers 1-print_numbers.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/variadic_functions/1-print_numbers.c)** : Une fonction qui imprime des nombres, séparés par un séparateur donné.
 * **[Lien vers 2-print_strings.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/variadic_functions/2-print_strings.c)** : Une fonction qui imprime des chaînes de caractères.
 * **[Lien vers 3-print_all.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/variadic_functions/3-print_all.c)** : Une fonction plus générique capable d'imprimer différents types de données.
-* ... (Ajoute d'autres liens vers tes fichiers d'exercices ici)
 
 *(Chaque lien doit pointer vers le fichier source correspondant dans ton dépôt GitHub. Par exemple, si ton fichier `0-sum_them_all.c` est directement à la racine de ton projet, le lien pourrait être `[0-sum_them_all.c](./0-sum_them_all.c)`.)*
 
