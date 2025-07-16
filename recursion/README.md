@@ -3,10 +3,10 @@
 Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce répertoire est le point de départ de mon parcours d'apprentissage intensif du langage C, en mettant l'accent sur la programmation de bas niveau. Il compile l'ensemble des projets et exercices réalisés dans le cadre de ma formation, depuis les fondamentaux jusqu'aux concepts plus avancés.
 
 Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
-🔄 Projet : Maîtrise de la Récursivité en C
+# 🔄 Projet : Maîtrise de la Récursivité en C
 Bienvenue dans ce projet dédié à l'exploration et la maîtrise de la récursivité en C ! La récursivité est une technique de programmation élégante où une fonction s'appelle elle-même pour résoudre un problème. Ce projet m'a permis de comprendre comment penser récursivement et d'appliquer cette approche pour des solutions concises et efficaces.
 
-🎯 Objectifs d'Apprentissage
+# 🎯 Objectifs d'Apprentissage
 À la fin de ce projet, je suis capable d'expliquer à quiconque, sans l'aide de ressources externes :
 
 Ce qu'est la récursivité et comment elle fonctionne.
@@ -17,7 +17,7 @@ Les situations appropriées où la récursivité est une solution optimale.
 
 Les situations où la récursivité devrait être évitée (par exemple, problèmes de performance ou de pile).
 
-🛠️ Technologies et Environnement
+# 🛠️ Technologies et Environnement
 Langage : C
 
 Compilateur : GCC (GNU Compiler Collection)
@@ -28,7 +28,7 @@ Environnement : Ubuntu 20.04 LTS
 
 Éditeurs : vi, vim, emacs
 
-📖 Structure du Projet et Exercices
+# 📖 Structure du Projet et Exercices
 Ce dépôt contient une série d'exercices conçus pour explorer différents aspects de la récursivité. Chaque fichier illustre une application spécifique de cette technique :
 
 main.h : Mon fichier d'en-tête centralisé, incluant les prototypes de toutes les fonctions du projet, y compris _putchar.
@@ -51,7 +51,7 @@ main.h : Mon fichier d'en-tête centralisé, incluant les prototypes de toutes l
 
 
 
-💡 Contraintes et Bonnes Pratiques
+# 💡 Contraintes et Bonnes Pratiques
 Ce projet adhère à des règles de codage strictes pour garantir la qualité du code et l'apprentissage de la récursivité pure :
 
 Style Betty : Conformité aux normes de style Betty, vérifiée par betty-style.pl et betty-doc.pl.
@@ -74,12 +74,12 @@ Pas de variables statiques : L'utilisation de variables statiques est interdite.
 Pour compiler les fichiers de ce projet, assure-toi d'avoir GCC installé sur un système Ubuntu 20.04 LTS.
 
 Exemple de compilation et d'exécution (pour 0-puts_recursion.c) :
-
-Bash
+```bash
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 0-main.c 0-puts_recursion.c -o puts_recursion
 ./puts_recursion
 # Résultat attendu : (dépend du 0-main.c de test)
+```
 
-✍️ Auteur
+# ✍️ Auteur
 Mathieu GODALIER - Élève en programmation
