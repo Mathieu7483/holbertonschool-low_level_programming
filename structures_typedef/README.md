@@ -1,4 +1,8 @@
-Super, Mathieu ! Attaquons le README pour ton projet sur les structures et typedef en C. C'est une étape cruciale pour organiser des données complexes et rendre ton code plus lisible et maintenable.
+# 📚 holbertonschool-low_level_programming : Immersion dans le C de Bas Niveau
+
+Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce répertoire est le point de départ de mon parcours d'apprentissage intensif du langage C, en mettant l'accent sur la programmation de bas niveau. Il compile l'ensemble des projets et exercices réalisés dans le cadre de ma formation, depuis les fondamentaux jusqu'aux concepts plus avancés.
+
+Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
 
 🏗️ Projet : Structures et typedef en C - Organiser vos Données
 Bienvenue dans ce projet fondamental qui explore les structures (struct) et la directive typedef en C ! C'est ici que j'ai appris à organiser des données de types différents en une seule entité logique, et à créer des alias de types pour un code plus propre et plus facile à lire. Ce projet a été essentiel pour passer à une programmation C plus structurée et plus avancée.
