@@ -1,6 +1,5 @@
 #include "3-calc.h"
 #include <stddef.h>
-#include <stdlib.h>
 #include <string.h>
 /**
 *get_op_func - function to get the operator
@@ -20,8 +19,10 @@ op_t ops[] = {
 int i = 0;
 while (ops[i].op != NULL)
 {
-if (strcmp(s,ops[i].op) == 0)
+if (*(ops[i].op) == *s && s[1] == '\0')
+{
 return (ops[i].f);
+}
 i++;
 }
 return (NULL);
