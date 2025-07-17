@@ -19,7 +19,7 @@ op_t ops[] = {
 int i = 0;
 while (ops[i].op != NULL)
 {
-if (*(ops[i].op) == *s && s[1] == '\0')
+if (strcmp(s,ops[i].op) == 0)
 return (ops[i].f);
 i++;
 }
