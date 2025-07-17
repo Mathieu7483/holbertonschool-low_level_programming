@@ -27,5 +27,5 @@ a = atoi(argv[1]);
 b = atoi(argv[3]);
 result = oprt(a, b);
 printf("%d\n", result);
-return (result);
+return (0);
 }
