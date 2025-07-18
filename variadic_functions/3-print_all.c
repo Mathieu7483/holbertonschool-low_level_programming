@@ -15,7 +15,7 @@ int int_val;
 float float_val;
 char *str_val;
 va_start(allargs, format);
-f(format == NULL)
+f(format == NULL);
 {
 printf("\n");
 va_end(allargs);
