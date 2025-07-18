@@ -100,4 +100,5 @@ Vous pouvez maintenant exécuter `betty votre_fichier.c` pour vérifier la confo
 
 ---
 
-## 🤝
+# ✍️ Auteur
+Mathieu GODALIER- Élève en programmation à la Holberton School
