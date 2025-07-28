@@ -15,7 +15,7 @@ if (new_node == NULL)
 	{
 	return (NULL);
 	}
-	dup_str = strdup(str);
+	dup_str = strdup(dup_str);
 if (dup_str == NULL)
 	{
 	free(new_node);
@@ -28,5 +28,4 @@ if (dup_str == NULL)
 	*head = new_node;
 
 return (new_node);
-free(new_node);
 }
