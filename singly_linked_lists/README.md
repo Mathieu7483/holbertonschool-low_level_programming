@@ -68,7 +68,7 @@ Fichier d'En-tête (lists.h) : Doit inclure les prototypes de toutes les fonctio
 # 📝 Structure de Données Utilisée
 Pour ce projet, la structure de liste chaînée simple suivante est employée :
 
-C
+```C
 
 /**
  * struct list_s - singly linked list
@@ -85,13 +85,14 @@ typedef struct list_s
     struct list_s *next;
 } list_t;
 Chaque nœud de la liste (list_t) contient une chaîne de caractères (str), sa longueur (len), et un pointeur (next) vers le nœud suivant dans la liste.
+```
 
 # 💻 Utilisation
 Ce projet met en œuvre diverses fonctions pour manipuler la structure list_t. Ces fonctions peuvent être utilisées pour construire, parcourir, et modifier des listes chaînées.
 
 Exemple (les main.c de test ne sont pas inclus dans le dépôt) :
 
-C
+```C
 
 #include "lists.h" // Votre fichier d'en-tête
 
@@ -113,14 +114,16 @@ int main(void)
     
     return (0);
 }
+```
+
 # ⚙️ Compilation
 Votre code sera compilé avec les options gcc spécifiées :
 
-````Bash
+```Bash
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o my_linked_lists
 Assurez-vous que votre fichier d'en-tête lists.h est correctement inclus par les fichiers source (#include "lists.h").
-````
+```
 
 # ✍️ Auteur
 [Mathieu GODALIER](https://github.com/Mathieu7483) - Elève en programmation à la Holberton School
