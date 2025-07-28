@@ -90,8 +90,16 @@ typedef struct list_s
     unsigned int len;
     struct list_s *next;
 } list_t;
-Chaque nœud de la liste (list_t) contient une chaîne de caractères (str), sa longueur (len), et un pointeur (next) vers le nœud suivant dans la liste.
+
 ```
+* [Lien vers lists.h](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/singly_linked_lists/lists.h)
+* [Lien vers 0-print_list.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/singly_linked_lists/0-print_list.c)
+* [Lien vers 1-list_len.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/singly_linked_lists/1-list_len.c)
+* [Lien vers 2-add_node.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/singly_linked_lists/2-add_node.c)
+* [Lien vers 3-add_node_end.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/singly_linked_lists/3-add_node_end.c)
+* [Lien vers 4-free_list.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/singly_linked_lists/4-free_list.c)
+
+
 
 # 💻 Utilisation
 Ce projet met en œuvre diverses fonctions pour manipuler la structure list_t. Ces fonctions peuvent être utilisées pour construire, parcourir, et modifier des listes chaînées.
@@ -127,8 +135,12 @@ Votre code sera compilé avec les options gcc spécifiées :
 
 ```Bash
 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o my_linked_lists
-Assurez-vous que votre fichier d'en-tête lists.h est correctement inclus par les fichiers source (#include "lists.h").
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o ./lettre de l'exercice
+```
+
+Verification des fuites de mémoire à l'aide de la commande
+```Bash
+valgrind --leak-check=full ./mon_programme
 ```
 
 # ✍️ Auteur
