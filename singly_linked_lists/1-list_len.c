@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
 *list_len - lenght of arguments of a list
-*@h: Head
+*@h: pointer to the Head
 *Return: Number of arguments
 */
 size_t list_len(const list_t *h)
