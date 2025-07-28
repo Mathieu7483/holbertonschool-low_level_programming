@@ -135,8 +135,12 @@ Votre code sera compilé avec les options gcc spécifiées :
 
 ```Bash
 
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o my_linked_lists
-Assurez-vous que votre fichier d'en-tête lists.h est correctement inclus par les fichiers source (#include "lists.h").
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o ./lettre de l'exercice
+```
+
+Verification des fuites de mémoire à l'aide de la commande
+```Bash
+valgrind --leak-check=full ./mon_programme
 ```
 
 # ✍️ Auteur
