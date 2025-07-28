@@ -28,4 +28,5 @@ if (dup_str == NULL)
 	*head = new_node;
 
 return (new_node);
+free(new_node);
 }
