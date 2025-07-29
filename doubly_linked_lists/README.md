@@ -23,7 +23,7 @@ Ce projet se concentre sur l'implémentation et la manipulation des listes doubl
 
 [Compilation](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/doubly_linked_lists#%EF%B8%8F-compilation)
 
-[Auteur]()
+[Auteur](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/doubly_linked_lists#%EF%B8%8F-auteur)
 
 # 💡 Contexte et Objectifs du Projet
 Après avoir exploré les listes chaînées simples, ce projet introduit les listes doublement chaînées, qui offrent une plus grande flexibilité pour la navigation (avant et arrière). Les objectifs clés sont :
