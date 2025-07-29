@@ -14,17 +14,29 @@ unsigned int i = 0;
 
 if (h == NULL)
 return (NULL);
-
 new_node = malloc(sizeof(dlistint_t));
 if (new_node == NULL)
 return (NULL);
 new_node->n = n;
-
+if (idx == 0)
+{
+	new_node->prev = NULL;
+	new_node->next = *h;
+if (*h != NULL)
+	(*h)->prev = new_node;
+	*h = new_node;
+	return (new_node);
+}
 temp = *h;
 while (temp && i < idx - 1)
 {
 	temp = temp->next;
 	i++;
+}
+if (current == NULL)
+{
+	free(new_node);
+	return (NULL);
 }
 new_node->next = temp->next;
 new_node->prev = temp;
