@@ -126,5 +126,10 @@ Votre code sera compilé avec les options gcc spécifiées :
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o my_doubly_linked_lists
 ```
 
+Verification des fuites de mémoire à l'aide de la commande
+```Bash
+valgrind --leak-check=full ./mon_programme
+```
+
 # ✍️ Auteur
 [Mathieu GODALIER](https://github.com/Mathieu7483) Elève en programmation à la Holberton School.
