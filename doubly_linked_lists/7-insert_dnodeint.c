@@ -45,7 +45,7 @@ new_node->prev = temp;
 if (temp->next != NULL)
 {
 	temp->next->prev = new_node;
-
+}
 temp->next = new_node;
 return (new_node);
 }
