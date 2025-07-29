@@ -11,19 +11,19 @@ Ce projet explore l'implémentation et la manipulation des listes chaînées sim
 Ce projet se concentre sur l'implémentation et la manipulation des listes doublement chaînées en C. Il vise à approfondir la compréhension des structures de données dynamiques, en explorant les particularités et les avantages des listes où chaque nœud pointe à la fois vers le suivant et le précédent.
 
 # 📖 Table des Matières
-Contexte et Objectifs du Projet
+[Contexte et Objectifs du Projet](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/doubly_linked_lists#-contexte-et-objectifs-du-projet)
 
-Ressources et Apprentissages Clés
+[Ressources et Apprentissages Clés](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/doubly_linked_lists#-ressources-et-apprentissages-cl%C3%A9s)
 
-Exigences Générales
+[Exigences Générales](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/doubly_linked_lists#-exigences-g%C3%A9n%C3%A9rales)
 
-Structure de Données Utilisée
+[Structure de Données Utilisée](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/doubly_linked_lists#-structure-de-donn%C3%A9es-utilis%C3%A9e)
 
-Utilisation
+[Utilisation](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/doubly_linked_lists#-utilisation)
 
-Compilation
+[Compilation](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/doubly_linked_lists#%EF%B8%8F-compilation)
 
-Auteur
+[Auteur]()
 
 # 💡 Contexte et Objectifs du Projet
 Après avoir exploré les listes chaînées simples, ce projet introduit les listes doublement chaînées, qui offrent une plus grande flexibilité pour la navigation (avant et arrière). Les objectifs clés sont :
@@ -126,5 +126,5 @@ Votre code sera compilé avec les options gcc spécifiées :
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o my_doubly_linked_lists
 ```
 
-✍️ Auteur
+# ✍️ Auteur
 [Mathieu GODALIER](https://github.com/Mathieu7483) Elève en programmation à la Holberton School.
