@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
-*free_list - Libère toute la mémoire d'une liste chaînée
-*@head: Pointeur vers le début de la liste
+*free_list - Free all the memory
+*@head: Pointer to the head of a linked list
 */
 void free_list(list_t *head)
 {
