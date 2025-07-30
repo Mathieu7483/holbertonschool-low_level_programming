@@ -4,7 +4,8 @@
 
 Bienvenue dans mon dépôt **`holbertonschool-low_level_programming`** ! Ce répertoire est le point de départ de mon parcours d'apprentissage intensif du langage C, en mettant l'accent sur la programmation de bas niveau. Il compile l'ensemble des projets et exercices réalisés dans le cadre de ma formation, depuis les fondamentaux jusqu'aux concepts plus avancés.
 
-Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.# 🔗 Projet : Les Listes Chaînées en C
+Mon objectif à travers ces projets est de développer une compréhension profonde de la manière dont les programmes fonctionnent "sous le capot", en explorant la mémoire, la compilation et les interactions directes avec le système.
+# 🔗 Projet : Les Listes Chaînées en C
 Ce projet explore l'implémentation et la manipulation des listes chaînées simples en C. Il vise à solidifier la compréhension de cette structure de données fondamentale, de son utilité et de sa mise en œuvre, en respectant un ensemble de contraintes de développement strictes.
 
 # 📖 Table des Matières
