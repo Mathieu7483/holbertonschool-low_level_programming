@@ -40,5 +40,5 @@ writechar = write(STDOUT_FILENO, buffer, length);
 		close(fileD);
 		return (0);
 	}
-	return (length);
+return (length);
 }
