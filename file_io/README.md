@@ -10,19 +10,19 @@ Mon objectif à travers ces projets est de développer une compréhension profon
 Ce projet explore les opérations d'entrée/sortie (I/O) de fichiers de bas niveau en C, en utilisant les appels système POSIX. Il vise à fournir une compréhension approfondie des descripteurs de fichiers, des permissions et des méthodes fondamentales pour interagir avec le système de fichiers.
 
 # 📖 Table des Matières
-Contexte et Objectifs du Projet
+[Contexte et Objectifs du Projet](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/file_io#-contexte-et-objectifs-du-projet)
 
-Ressources et Apprentissages Clés
+[Ressources et Apprentissages Clés](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/file_io#-ressources-et-apprentissages-cl%C3%A9s)
 
-Exigences Générales
+[Exigences Générales](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/file_io#-exigences-g%C3%A9n%C3%A9rales)
 
-Concepts Abordés
+[Concepts Abordés](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/file_io#-concepts-abord%C3%A9s)
 
-Tâches Réalisées
+[Tâches Réalisées](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/file_io/README.md#-t%C3%A2ches-r%C3%A9alis%C3%A9es)
 
-Compilation
+[Compilation](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/file_io#%EF%B8%8F-compilation)
 
-Auteur
+[Auteur](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/file_io#%EF%B8%8F-auteur)
 
 # 💡 Contexte et Objectifs du Projet
 Dans le développement système, comprendre comment un programme interagit avec les fichiers est essentiel. Ce projet se concentre sur les appels système (syscalls) open, close, read, et write, qui sont les fondations de toute interaction avec les fichiers sous les systèmes d'exploitation de type Unix/Linux.
@@ -116,7 +116,7 @@ STDOUT_FILENO (1) : Sortie standard.
 
 STDERR_FILENO (2) : Erreur standard.
 
-🚀 Tâches Réalisées
+# 🚀 Tâches Réalisées
 Ce projet comprend plusieurs tâches, chacune mettant en œuvre des aspects spécifiques de l'I/O de fichiers :
 
 0. Tread lightly, she is near
@@ -126,7 +126,7 @@ Prototype : ssize_t read_textfile(const char *filename, size_t letters);
 
 Retour : Le nombre réel de caractères lus et imprimés, ou 0 en cas d'échec ou d'entrée invalide.
 
-Fichier : 0-read_textfile.c
+Fichier : [0-read_textfile.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/file_io/0-read_textfile.c)
 
 1. Under the snow
 Objectif : Créer un fichier et y écrire du contenu.
