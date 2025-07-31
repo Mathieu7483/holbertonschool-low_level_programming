@@ -28,7 +28,7 @@ int fileD, writtenBytes;
 	if (filename == NULL)
 	return (-1);
 
-fileD = open(filename, O_WRONLY | O_CREAT | O_APPEND, 0664);
+fileD = open(filename, O_WRONLY | O_APPEND);
 	if (fileD == -1)
 	{
 		return (-1);
