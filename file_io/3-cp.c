@@ -42,7 +42,6 @@ int copy_file(int ac, char **av)
 	if (fileD_to == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]);
-		close(fileD_from)
 		exit(99);
 	}
 	while ((read_result = read(fileD_from, buffer, 1024)) > 0)
