@@ -17,6 +17,6 @@ int create_file(const char *filename, char *text_content);
 int append_text_to_file(const char *filename, char *text_content);
 
 int main(int ac, char **av);
-int copy_file(int *fileD_from, char *fileD_to);
+int copy_file(int ac, char **av);
 
 #endif /* MAIN_H*/
