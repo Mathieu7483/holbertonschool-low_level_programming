@@ -8,12 +8,12 @@
 */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int fileD;
-	int length, writechar;
-	char *buffer;
+int fileD;
+int length, writechar;
+char *buffer;
 
-if (filename == NULL || letters == 0)
-	return (0);
+	if (filename == NULL || letters == 0)
+		return (0);
 
 buffer = malloc(sizeof(char) * (letters));
 	if (buffer == NULL)
@@ -40,5 +40,7 @@ writechar = write(STDOUT_FILENO, buffer, length);
 		close(fileD);
 		return (0);
 	}
-return (length);
+	free(buffer);
+	close(fileD);
+	return (length);
 }
