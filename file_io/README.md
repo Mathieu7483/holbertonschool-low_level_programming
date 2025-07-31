@@ -137,7 +137,7 @@ Permissions : Le fichier créé doit avoir les permissions rw-------. S'il exist
 
 Retour : 1 en cas de succès, -1 en cas d'échec.
 
-Fichier : 1-create_file.c
+Fichier : [1-create_file.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/file_io/1-create_file.c)
 
 2. Speak gently, she can hear
 Objectif : Ajouter du texte à la fin d'un fichier existant.
@@ -148,7 +148,7 @@ Comportement : Ne crée pas le fichier s'il n'existe pas.
 
 Retour : 1 en cas de succès, -1 en cas d'échec.
 
-Fichier : 2-append_text_to_file.c
+Fichier : [2-append_text_to_file.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/file_io/2-append_text_to_file.c)
 
 3. cp
 Objectif : Écrire un programme qui copie le contenu d'un fichier source vers un fichier de destination.
