@@ -69,5 +69,5 @@ int copy_file(int ac, char **av)
 */
 int main(int ac, char **av)
 {
-	return (0);
+	return (copy_file(ac, av));
 }
