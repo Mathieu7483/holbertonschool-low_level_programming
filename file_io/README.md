@@ -161,7 +161,7 @@ Performances : Lit par blocs de 1024 octets pour minimiser les appels système.
 
 Permissions : Le fichier de destination créé aura les permissions rw-rw-r--.
 
-Fichier : 3-cp.c
+Fichier : [3-cp.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/file_io/3-cp.c)
 
 # ⚙️ Compilation
 Les fichiers de ce projet seront compilés à l'aide de gcc avec les options suivantes :
