@@ -33,17 +33,27 @@ int copy_file(int ac, char **av)
 		if (write_result == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]);
+			close(fileD_from);
+			close(fileD_to);
 			exit(99);
 		}
 	}
 	if (read_result == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av[1]);
+		close(fileD_from);
+		close(fileD_to);
 		exit(98);
 	}
-	if (close(fileD_from) == -1 || if (close(fileD_to) == -1))
+	if (close(fileD_from) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fileD %d\n", fileD_from);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fileD_from);
+		exit(100);
+	}
+
+	if (close(fileD_to) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fileD_to);
 		exit(100);
 	}
 	return (0);
