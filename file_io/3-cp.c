@@ -7,13 +7,14 @@
 */
 int copy_file(int ac, char **av)
 {
-	if (ac != 3)
+	int fileD_from, fileD_to, read_result, write_result;
+	char buffer[1024];
+
+		if (ac != 3)
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
-	int fileD_from, fileD_to, read_result, write_result;
-	char buffer[1024];
 
 	fileD_from = open(av[1], O_RDONLY);
 	if (fileD_from == -1)
