@@ -7,6 +7,11 @@
 */
 int copy_file(int ac, char **av)
 {
+	if (ac != 3)
+	{
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
+		exit(97);
+	}
 	int fileD_from, fileD_to, read_result, write_result;
 	char buffer[1024];
 
@@ -63,11 +68,5 @@ int copy_file(int ac, char **av)
 */
 int main(int ac, char **av)
 {
-	if (ac != 3)
-	{
-		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
-		exit(97);
-	}
-
 	return (0);
 }
