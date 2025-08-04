@@ -10,19 +10,19 @@ Mon objectif à travers ces projets est de développer une compréhension profon
 Ce projet consiste à implémenter une table de hachage en C, une structure de données essentielle pour stocker des paires clé/valeur de manière efficace. Il s'agit de comprendre les concepts fondamentaux tels que les fonctions de hachage, les collisions, et la gestion de la mémoire.
 
 # 📖 Table des Matières
-Contexte et Objectifs du Projet
+[Contexte et Objectifs du Projet](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/hash_tables#-contexte-et-objectifs-du-projet)
 
-Ressources et Apprentissages Clés
+[Ressources et Apprentissages Clés](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/hash_tables#-ressources-et-apprentissages-cl%C3%A9s)
 
-Exigences Générales
+[Exigences Générales](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/hash_tables#-exigences-g%C3%A9n%C3%A9rales)
 
-Structures de Données Utilisées
+[Structures de Données Utilisées](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/hash_tables#-structures-de-donn%C3%A9es-utilis%C3%A9es)
 
-Tâches Réalisées
+[Tâches Réalisées](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/hash_tables#-t%C3%A2ches-r%C3%A9alis%C3%A9es)
 
-Compilation
+[Compilation](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/hash_tables#%EF%B8%8F-compilation)
 
-Auteur
+[Auteur](https://github.com/Mathieu7483/holbertonschool-low_level_programming/tree/main/hash_tables#%EF%B8%8F-auteur)
 
 # 💡 Contexte et Objectifs du Projet
 Les tables de hachage sont utilisées partout, des bases de données aux caches web. Ce projet vise à démystifier leur fonctionnement en te challengeant de créer ta propre implémentation. Les objectifs d'apprentissage sont les suivants :
@@ -108,27 +108,28 @@ typedef struct hash_table_s
      hash_node_t **array;
 } hash_table_t;
 ```
+Fichier : [hash_tables.h](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hash_tables/hash_tables.h)
 
 # 🚀 Tâches Réalisées
 Ce projet est divisé en plusieurs tâches, chacune construisant sur la précédente pour créer une table de hachage fonctionnelle.
 
-0. >>> ht = {}
+0. ht = {}
 Objectif : Créer une table de hachage.
 
 Prototype : hash_table_t *hash_table_create(unsigned long int size);
 
 Retour : Un pointeur vers la nouvelle table de hachage, ou NULL en cas d'échec.
 
-Fichier : 0-hash_table_create.c
+Fichier : [0-hash_table_create.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hash_tables/0-hash_table_create.c)
 
 1. djb2
-Objectif : Implémenter la fonction de hachage djb2.
+Objectif : Implémenter la fonction de hachage djb2. (le code est donné dans l'ennoncé via un lien)
 
 Prototype : unsigned long int hash_djb2(const unsigned char *str);
 
 Retour : La valeur de hachage générée.
 
-Fichier : 1-djb2.c
+Fichier : [1-djb2.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hash_tables/1-djb2.c)
 
 2. key -> index
 Objectif : Calculer l'index d'une clé dans le tableau de la table de hachage.
@@ -137,41 +138,41 @@ Prototype : unsigned long int key_index(const unsigned char *key, unsigned long 
 
 Retour : L'index où la paire clé/valeur doit être stockée.
 
-Fichier : 2-key_index.c
+Fichier : [2-key_index.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hash_tables/2-key_index.c)
 
-3. >>> ht['betty'] = 'cool'
+3. ht['betty'] = 'cool'
 Objectif : Ajouter un élément à la table de hachage.
 
 Prototype : int hash_table_set(hash_table_t *ht, const char *key, const char *value);
 
 Retour : 1 en cas de succès, 0 en cas d'échec. Gère les collisions en ajoutant le nouveau nœud au début de la liste.
 
-Fichier : 3-hash_table_set.c
+Fichier : [3-hash_table_set.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hash_tables/3-hash_table_set.c)
 
-4. >>> ht['betty']
+4. ht['betty']
 Objectif : Récupérer une valeur à partir de sa clé.
 
 Prototype : char *hash_table_get(const hash_table_t *ht, const char *key);
 
 Retour : La valeur associée à la clé, ou NULL si la clé n'est pas trouvée.
 
-Fichier : 4-hash_table_get.c
+Fichier : [4-hash_table_get.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hash_tables/4-hash_table_get.c)
 
-5. >>> print(ht)
+5. print(ht)
 Objectif : Afficher le contenu de la table de hachage.
 
 Prototype : void hash_table_print(const hash_table_t *ht);
 
 Affichage : Imprime les paires clé/valeur dans l'ordre du tableau, puis de la liste, en respectant un format spécifique.
 
-Fichier : 5-hash_table_print.c
+Fichier : [5-hash_table_print.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hash_tables/5-hash_table_print.c)
 
-6. >>> del ht
+6. del ht
 Objectif : Libérer la mémoire d'une table de hachage.
 
 Prototype : void hash_table_delete(hash_table_t *ht);
 
-Fichier : 6-hash_table_delete.c
+Fichier : [6-hash_table_delete.c](https://github.com/Mathieu7483/holbertonschool-low_level_programming/blob/main/hash_tables/6-hash_table_delete.c)
 
 # ⚙️ Compilation
 Votre code sera compilé avec les options gcc spécifiées :
