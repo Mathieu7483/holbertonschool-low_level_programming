@@ -53,4 +53,4 @@ Ce projet a été développé en suivant des règles strictes pour garantir un c
 
 
 # ✍️ Auteur
-Mathieu GODALIER- Élève en programmation
+[Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
