@@ -81,4 +81,4 @@ Scripts Shell : Si applicables, les scripts Shell sont de deux lignes exactes et
 
 
 # ✍️ Auteur
-Mathieu GODALIER - Élève en programmation
+[Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
