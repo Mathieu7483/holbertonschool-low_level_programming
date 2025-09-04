@@ -62,4 +62,4 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 main.c 0-sum_them_all.c -o sum_th
 ```
 
 # ✍️ Auteur
-Mathieu GODALIER- Élève en programmation
+[Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
