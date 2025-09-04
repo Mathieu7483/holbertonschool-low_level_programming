@@ -122,4 +122,4 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 main.c 0-memset.c -o memset_test
 ```
 
 # ✍️ Auteur
-Mathieu GODALIER - Élève en programmation
+[Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
