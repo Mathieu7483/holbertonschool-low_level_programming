@@ -92,4 +92,4 @@ Protection d'en-tête : Le fichier main.h doit être protégé contre les inclus
 
 
 # ✍️ Auteur
-Mathieu GODALIER - Élève en programmation
+[Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
