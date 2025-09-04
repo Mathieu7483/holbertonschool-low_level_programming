@@ -86,4 +86,4 @@ _putchar : Cette fonction est utilisée pour toutes les opérations d'affichage 
 Protection d'en-tête : Le fichier main.h doit être protégé contre les inclusions multiples (include guards).
 
 # ✍️ Auteur
-Mathieu GODALIER - Élève en programmation
+[Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
