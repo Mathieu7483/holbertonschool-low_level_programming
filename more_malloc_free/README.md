@@ -77,4 +77,4 @@ valgrind --leak-check=full ./a
 ```
 
 # ✍️ Auteur
-Mathieu GODALIER - Élève en programmation
+[Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
