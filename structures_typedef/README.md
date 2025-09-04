@@ -64,4 +64,4 @@ Include Guards : Tous les fichiers d'en-tête doivent être protégés par des i
 
 
 # ✍️ Auteur
-Mathieu GODALIER - Élève en programmation
+[Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
